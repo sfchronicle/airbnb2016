@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+
+      <div class="hed">This is a Sankey chart</div>
+      <div class="chatter">This is chatter about the Sankey graph.</div>
+
+      <div class="chart">
+        <div class="sankey" id="sankeygraph">
+      </div>
+
+      <div class="credit"></div>
+      <div class="source"></div>
+
+      <!-- content goes here -->
+    </responsive-child>
+
+    <script src="../app.js" async></script>
+    <%= t.include("partials/_foot.html") %>
+    <%= t.include("partials/_helloSFC.html") %>
+  </body>
+</html>
