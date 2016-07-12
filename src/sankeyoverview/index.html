@@ -11,18 +11,29 @@
 
     <responsive-child>
 
-      <div class="hed">This is a Sankey chart</div>
-      <div class="chatter">This is chatter about the Sankey graph.</div>
+      <div class="outer">
 
-      <div class="chart">
-        <div class="sankey" id="sankeygraph">
+        <div class="hed">This is a Sankey chart</div>
+        <div class="chatter">This is chatter about the Sankey graph.</div>
+
+        <div class="chart">
+          <div class="sankey" id="sankeygraph">
+        </div>
+
+        <div class="credit">
+            <div class="entry">Joaquin Palomino  &bull; <a href="mailto:jpalomino@sfchronicle.com">jpalomino@sfchronicle.com</a>  &bull; <a href = "https://twitter.com/JoaquinPalomino" target="_blank">@JoaquinPalomino</a></div>
+            <div class="entry">Emma O'Neill  &bull; <a href="mailto:eoneill@sfchronicle.com">eoneill@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/emmaruthoneill" target="_blank">@emmaruthoneill</a></div>
+        </div>
+        <div class="source"></div>
+
       </div>
-
-      <div class="credit"></div>
-      <div class="source"></div>
 
       <!-- content goes here -->
     </responsive-child>
+
+    <script>
+      var AirbnbData = <%= JSON.stringify(csv.airbnb_short) %>;
+    </script>
 
     <script src="../app.js" async></script>
     <%= t.include("partials/_foot.html") %>

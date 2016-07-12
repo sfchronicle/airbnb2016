@@ -75,3 +75,43 @@
     padding-bottom: 40px;
   }
 }
+
+// sankey ----------------------------------------------------------------------
+
+.node {
+  font-size: 13px;
+}
+
+#sankeygraph {
+  height: 600px;
+  width: 95%;
+  margin: auto;
+  //font-family: 13px sans-serif;
+  @media @mobile {
+    width: 98%;
+    margin: auto;
+  }
+
+  .node rect {
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+    stroke-width: 0;
+  }
+  .node text {
+    font-family: @bold-graphics;
+    text-transform: uppercase;
+    @media @mobile {
+      font-size: 10px;
+    }
+  }
+  .node text-part2 {
+    font-family: @bold-graphics;
+    text-transform: uppercase;
+  }
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .7;
+  }
+
+}
