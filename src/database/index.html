@@ -20,7 +20,7 @@
       <div class="chatter">You can use this to look up information about your neighborhood, such as the number of rentals the average price and the number of reviews blahblahblah.</div>
 
         <div ng-controller="SearchController" ng-app="search" ng-cloak>
-         <input type="text" ng-model="searchKeyword" placeholder="&#xf002;  Look up your neighborhood" id="autocomplete" style="font-family:AntennaExtraLight, FontAwesome">
+         <input type="text" ng-model="searchKeyword" placeholder="&#xf002;  Look up your neighborhood" id="complete" style="font-family:AntennaExtraLight, FontAwesome">
 
           <div class="scroll-section">
             <table>
@@ -63,14 +63,20 @@
       console.log(databaseData);
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places"></script>
-
     <script>
+      var placesearch, autocomplete;
+      var input = document.getElementById('complete');
+      var options = {
+        types: ['geocode'],
+        locality: ['San Francisco']
+      };
 
-      var autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'));
-
+      function initAutocomplete() {
+         autocomplete = new google.maps.places.Autocomplete(input, options);
+       }
     </script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&callback=initAutocomplete" async defer></script>
 
     <script src="../searchable_app.js" async></script>
     <%= t.include("partials/_foot.html") %>
