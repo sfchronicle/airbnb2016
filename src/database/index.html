@@ -5,19 +5,72 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <%= t.include("partials/_head.html") %>
+    <style>
+    [ng-cloak] {
+      display: none;
+    }
+    </style>
   </head>
   <body>
 
-    <responsive-child>
-      <div class="hed">This is a searchable database</div>
-      <div class="chatter">This is chatter about the searchable database.</div>
+    <responsive-child id="searchable">
+      <div class="hed">Searchable database</div>
+      <div class="chatter">You can use this to look up information about your neighborhood, such as the number of rentals the average price and the number of reviews blahblahblah.</div>
 
+        <div ng-controller="SearchController" ng-app="search" ng-cloak>
+         <input type="text" ng-model="searchKeyword" placeholder="&#xf002;  Look up your neighborhood" id="autocomplete" style="font-family:AntennaExtraLight, FontAwesome">
 
+          <div class="scroll-section">
+            <table>
+              <thead>
+                <tr>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">  
+                        Neighborhood<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down fa-lg"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up fa-lg"></span>
+                      </a>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'rentals'; sortReverse = !sortReverse">
+                        Rentals<span ng-show="sortType == 'rentals' && !sortReverse" class="fa fa-caret-up fa-lg"></span><span ng-show="sortType == 'rentals' && sortReverse" class="fa fa-caret-down fa-lg"></span>
+                      </a>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'price'; sortReverse = !sortReverse">
+                        Cost<span ng-show="sortType == 'price' && !sortReverse" class="fa fa-caret-up fa-lg"></span><span ng-show="sortType == 'price' && sortReverse" class="fa fa-caret-down fa-lg"></span>
+                      </a>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'reviews'; sortReverse = !sortReverse">
+                        Reviews<span ng-show="sortType == 'reviews' && !sortReverse" class="fa fa-caret-up fa-lg"></span><span ng-show="sortType == 'reviews' && sortReverse" class="fa fa-caret-down fa-lg"></span>
+                      </a>
+              </thead>
 
-      <div class="credit"></div>
+              <tbody>
+                <tr ng-repeat="row in searchdb | orderBy:sortType:sortReverse | filter: searchKeyword as results">
+                  <td>{{row.neighborhood}}
+                  <td>{{row.rentals}}
+                  <td>{{row.price}}
+                  <td>{{row.reviews}}
+                </tr>
+                <tr ng-show="results.length == 0">
+                  <td colspan=100 style="padding: 10px;"><em>No results found.</em>
+            </table>
+
+          </div>
+        </div>
+
+      <div class="credit">Benjamin Din  &bull; <a href="mailto:benjamin.din@gmail.com">bdin@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/benjamindin" target="_blank">@benjamindin</a></div>
       <div class="source"></div>
     </responsive-child>
+
+    <script>
+      var databaseData = <%= JSON.stringify(csv.database_data) %>;
+      console.log(databaseData);
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places"></script>
+
+    <script>
+
+      var autocomplete = new google.maps.places.Autocomplete(document.getElementById('autocomplete'));
+
+    </script>
+
 
     <script src="../searchable_app.js" async></script>
     <%= t.include("partials/_foot.html") %>

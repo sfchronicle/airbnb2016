@@ -5,16 +5,16 @@ var Sankey = require('./lib/d3.chart.sankey');
 
 var colors = {
 
-      'Richmond District': '#6C85A5',
-      'Downtown': '#D13D59',
-      'Inner Sunset': '#D04B61',
-      'sanmateo': '#889C6B',
+      'richmonddistrict': '#6C85A5',
+      'downtown': '#D13D59',
+      'innersunset': '#D04B61',
+      'nobhill': '#889C6B',
+      'marina': '#61988E',
+      'soma': '#6E7B8E',
+      'hayesvalley': '#80A9D0',
 
-      'Private Room': '#996B7D',
-      'Entire Home/apt': '#A89170',
-      'apple': '#61988E',
-      'cisco': '#6E7B8E',
-      'deloitte': '#80A9D0',
+      'privateroom': '#996B7D',
+      'entirehome/apt': '#A89170',
 
 
       '<$50k': '#493843',
@@ -75,8 +75,7 @@ chart
     return color(node, 1) || colors.fallback;
   })
   .colorLinks(function(link) {
-    console.log(color(link.source,4));
-    return color(link.source, 4) || colors.fallback;//|| color(link.target, 1)
+    return color(link.source, 1) || colors.fallback;//|| color(link.target, 1)
   })
   .nodeWidth(20)
   .nodePadding(5)
@@ -85,15 +84,15 @@ chart
   .draw(graph);
 
 function label(node) {
-  if (node.name == "San Francisco") {
-    return node.name + " (11K)";
-  } else if (node.name == "Santa Clara") {
-    return node.name + " (46K)"
-  } else if (node.name == "San Mateo") {
-    return node.name + " (6K)"
-  } else {
+  // if (node.name == "San Francisco") {
+  //   return node.name + " (11K)";
+  // } else if (node.name == "Santa Clara") {
+  //   return node.name + " (46K)"
+  // } else if (node.name == "San Mateo") {
+  //   return node.name + " (6K)"
+  // } else {
     return node.name;
-  }
+  // }
 }
 
 function color(node, depth) {

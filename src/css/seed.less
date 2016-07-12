@@ -115,3 +115,75 @@
   }
 
 }
+
+#searchable {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: @block-graphics;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 13px;
+
+  @media @tablet {
+    font-size: 10px;
+  }
+}
+
+.scroll-section {
+  height: 220px;
+  overflow-y: auto;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #D8D8D8;
+}
+
+table tr:nth-child(even) td {
+  background-color: #F8F8F8;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 80%;
+  font-size: 13px;
+  padding: 3px;
+  border: 0px;
+  border-bottom: 1px solid rgb(238,238,238);
+  font-family: @block-graphics;
+
+  @media @tablet {
+    font-size: 10px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+td {
+  padding: 3px 5px;
+  text-align: center;
+}
+
+th {
+  background: @gray-blue;
+  padding: 5px;
+
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  span {
+    padding-left: 3px;
+  }
+}

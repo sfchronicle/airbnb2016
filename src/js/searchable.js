@@ -1,2 +1,13 @@
+require("component-responsive-frame/child");
+require("angular");
+var app = angular.module("search", []);
 
-console.log("put the javascript for the searchable database");
+app.controller("SearchController", ["$scope", function($scope) {
+
+	$scope.searchKeyword = "";
+	$scope.sortType     = 'neighborhood';
+	$scope.sortReverse  = false;
+
+	$scope.searchdb = databaseData;
+
+}]);
