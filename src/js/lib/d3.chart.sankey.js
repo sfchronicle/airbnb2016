@@ -815,7 +815,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  direction = direction || 'both';
 
 	  if (direction == 'source' || direction == 'both') {
+			console.log("links before");
 	    links = links.concat(getConnectionsNode(o.source, 'source'));
+			links.forEach(function(l){
+				console.log(l);
+				links.concat(getConnectionsNode(l.source,'source'));
+			});
+			console.log("links after");
+			console.log(links);
 	  }
 	  if (direction == 'target' || direction == 'both') {
 	    links = links.concat(getConnectionsNode(o.target, 'target'));

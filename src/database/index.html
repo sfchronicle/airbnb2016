@@ -92,8 +92,9 @@
       console.log(neighborhoodData);
     </script>
 
+    <script src="../searchable_app.js" async></script>
     <script>
-      var inside = require('point-in-polygon');
+      
       var placeSearch, autocomplete;
 
       function initAutocomplete() {
@@ -143,7 +144,6 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&region=us&callback=initAutocomplete" async defer></script>
 
-    <script src="../searchable_app.js" async></script>
     <%= t.include("partials/_foot.html") %>
    <!-- <%= t.include("partials/_helloSFC.html") %> -->
   </body>
