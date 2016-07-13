@@ -1,25 +1,49 @@
-neighborhood,rentals,price,reviews
-The Mission,123,100,1
-Haight Asbury,234,200,2
-Lower Haight,345,100,3
-Embarcadero,456,200,4
-The Mission,1,1000,5
-Haight Asbury,123,100,1
-Lower Haight,234,200,2
-Embarcadero,345,100,3
-The Mission,456,200,4
-Haight Asbury,1,1000,5
-Lower Haight,123,100,1
-Embarcadero,234,200,2
-The Mission,345,100,3
-Haight Asbury,456,200,4
-Lower Haight,1,1000,5
-Embarcadero,123,100,1
-The Mission,234,200,2
-Haight Asbury,345,100,3
-Lower Haight,456,200,4
-Embarcadero,1,1000,5
-The Mission,123,100,1
-Haight Asbury,234,200,2
-Lower Haight,345,100,3
-Embarcadero,456,200,4
+neighborhood,listings,property_1,price_1,property_2,price_2,property_3,price_3
+Alamo Square,123,700,$100 ,700,$100 ,890,$100 
+Balboa Terrace,234,1,"$2,900 ",1,"$2,900 ",1,"$2,900 "
+Bayview,345,1,100,1,100,1,100
+Bernal Heights,456,1,200,1,200,1,200
+Chinatown,1,1,1000,1,1000,1,1000
+Civic Center,123,1,100,1,100,1,100
+Cole Valley,234,1,200,1,200,1,200
+Cow Hollow,345,1,100,1,100,1,100
+Crocker Amazon,456,1,200,1,200,1,200
+Diamond Heights,1,1,1000,1,1000,1,1000
+Dogpatch,123,1,100,1,100,1,100
+Downtown,234,1,200,1,200,1,200
+Duboce Triangle,345,1,100,1,100,1,100
+Excelsior,456,1,200,1,200,1,200
+Financial District,1,1,1000,1,1000,1,1000
+Fisherman's Wharf,123,1,100,1,100,1,100
+Glen Park,234,1,200,1,200,1,200
+Golden Gate,345,1,100,1,100,1,100
+Haight-Ashbury,456,1,200,1,200,1,200
+Hayes Valley,1,1,1000,1,1000,1,1000
+Ingleside,123,1,100,1,100,1,100
+Inner Sunset,234,1,200,1,200,1,200
+Lakeshore,345,1,100,1,100,1,100
+Lower Haight,456,1,200,1,200,1,200
+Marina,123,1,100,1,100,1,100
+Mission District,234,1,200,1,200,1,200
+Mission Terrace,345,1,100,1,100,1,100
+Nob Hill,456,1,200,1,200,1,200
+Noe Valley,1,1,1000,1,1000,1,1000
+North Beach,123,1,100,1,100,1,100
+Oceanview,234,1,200,1,200,1,200
+Outer Sunset,345,1,100,1,100,1,100
+Pacific Heights,456,1,200,1,200,1,200
+Parkside,1,1,1000,1,1000,1,1000
+Portola,123,1,100,1,100,1,100
+Potrero Hill,234,1,200,1,200,1,200
+Presidio Heights,345,1,100,1,100,1,100
+Richmond District,456,1,200,1,200,1,200
+Russian Hill,1,1,1000,1,1000,1,1000
+SoMa,123,1,100,1,100,1,100
+South Beach,234,1,200,1,200,1,200
+Sunnyside,345,1,100,1,100,1,100
+Telegraph Hill,456,1,200,1,200,1,200
+Tenderloin,1,1,1000,1,1000,1,1000
+The Castro,123,1,100,1,100,1,100
+Twin Peaks,234,1,200,1,200,1,200
+Visitacion Valley,345,1,100,1,100,1,100
+Western Addition/ NOPA,456,1,200,1,200,1,200

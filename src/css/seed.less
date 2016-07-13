@@ -168,7 +168,7 @@ body {
 
 #searchable {
   width: 100%;
-  max-width: 650px;
+  max-width: 750px;
   margin: 0 auto;
   font-family: @block-graphics;
 }
@@ -184,7 +184,7 @@ table {
 }
 
 .scroll-section {
-  height: 220px;
+  height: 350px;
   overflow-y: auto;
 }
 
@@ -212,14 +212,19 @@ input {
   }
 }
 
+input:focus {
+  outline: none;
+}
+
 td {
-  padding: 3px 5px;
+  padding: 4px 1px;
   text-align: center;
 }
 
 th {
   background: @gray-blue;
   padding: 5px;
+  color: white;
 
   a {
     color: white;
@@ -231,5 +236,13 @@ th {
 
   span {
     padding-left: 3px;
+  }
+}
+
+tr {
+  &.smaller {
+    @media @mobile {
+      font-size: 9.44px;
+    }
   }
 }

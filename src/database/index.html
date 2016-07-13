@@ -19,33 +19,59 @@
       <div class="hed">Searchable database</div>
       <div class="chatter">You can use this to look up information about your neighborhood, such as the number of rentals the average price and the number of reviews blahblahblah.</div>
 
+      <div style="float: left; width: 40%; text-align: center; margin-bottom: 20px">Search by address</div>
+      <div style="float: left; width: 40%; text-align: center; margin-bottom: 20px">Search by neighborhood</div>
+
+      <input id="autocomplete" placeholder="Enter your address"
+             type="text"></input>
+
+
         <div ng-controller="SearchController" ng-app="search" ng-cloak>
          <input type="text" ng-model="searchKeyword" placeholder="&#xf002;  Look up your neighborhood" id="complete" style="font-family:AntennaExtraLight, FontAwesome">
+
+         <input type="text" placeholder="&#xf002;  Search for your address" id="address" style="font-family:AntennaExtraLight, FontAwesome">
 
           <div class="scroll-section">
             <table>
               <thead>
                 <tr>
-                  <th><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">  
-                        Neighborhood<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down fa-lg"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up fa-lg"></span>
+                  <th colspan=1 rowspan=2><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">District<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up"></span></a>
+                  <th colspan=1 rowspan=2><a href="javascript:void(0)" ng-click="sortType = 'listings'; sortReverse = !sortReverse">Total listings<span ng-show="sortType == 'listings' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'listings' && sortReverse" class="fa fa-caret-down"></span></a>
+                  <th colspan=2>Entire home/apt listings
+                  <th colspan=2>Private room listings
+                  <th colspan=2>Shared room listings
+                </tr>
+                <tr class="smaller">
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'property_1'; sortReverse = !sortReverse">
+                        #<span ng-show="sortType == 'property_1' && !sortReverse" class="fa fa-caret-up fa fa-caret-up"></span><span ng-show="sortType == 'property_1' && sortReverse" class="fa fa-caret-down"></span>
                       </a>
-                  <th><a href="javascript:void(0)" ng-click="sortType = 'rentals'; sortReverse = !sortReverse">
-                        Rentals<span ng-show="sortType == 'rentals' && !sortReverse" class="fa fa-caret-up fa-lg"></span><span ng-show="sortType == 'rentals' && sortReverse" class="fa fa-caret-down fa-lg"></span>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'price_1'; sortReverse = !sortReverse">
+                        Price<span ng-show="sortType == 'price_1' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'price_1' && sortReverse" class="fa fa-caret-down"></span>
                       </a>
-                  <th><a href="javascript:void(0)" ng-click="sortType = 'price'; sortReverse = !sortReverse">
-                        Cost<span ng-show="sortType == 'price' && !sortReverse" class="fa fa-caret-up fa-lg"></span><span ng-show="sortType == 'price' && sortReverse" class="fa fa-caret-down fa-lg"></span>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'property_2'; sortReverse = !sortReverse">
+                        #<span ng-show="sortType == 'property_2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'property_2' && sortReverse" class="fa fa-caret-down"></span>
                       </a>
-                  <th><a href="javascript:void(0)" ng-click="sortType = 'reviews'; sortReverse = !sortReverse">
-                        Reviews<span ng-show="sortType == 'reviews' && !sortReverse" class="fa fa-caret-up fa-lg"></span><span ng-show="sortType == 'reviews' && sortReverse" class="fa fa-caret-down fa-lg"></span>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'price_2'; sortReverse = !sortReverse">
+                        Price<span ng-show="sortType == 'price_2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'price_2' && sortReverse" class="fa fa-caret-down"></span>
+                      </a>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'property_3'; sortReverse = !sortReverse">
+                        #<span ng-show="sortType == 'property_3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'property_3' && sortReverse" class="fa fa-caret-down"></span>
+                      </a>
+                  <th><a href="javascript:void(0)" ng-click="sortType = 'price_3'; sortReverse = !sortReverse">
+                        Price<span ng-show="sortType == 'price_3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'price_3' && sortReverse" class="fa fa-caret-down"></span>
                       </a>
               </thead>
 
               <tbody>
                 <tr ng-repeat="row in searchdb | orderBy:sortType:sortReverse | filter: searchKeyword as results">
-                  <td>{{row.neighborhood}}
-                  <td>{{row.rentals}}
-                  <td>{{row.price}}
-                  <td>{{row.reviews}}
+                  <td colspan=1>{{row.neighborhood}}
+                  <td colspan=1>{{row.listings}}
+                  <td colspan=1>{{row.property_1}}
+                  <td colspan=1>{{row.price_1}}
+                  <td colspan=1>{{row.property_2}}
+                  <td colspan=1>{{row.price_2}}
+                  <td colspan=1>{{row.property_3}}
+                  <td colspan=1>{{row.price_3}}
                 </tr>
                 <tr ng-show="results.length == 0">
                   <td colspan=100 style="padding: 10px;"><em>No results found.</em>
@@ -61,25 +87,64 @@
     <script>
       var databaseData = <%= JSON.stringify(csv.database_data) %>;
       console.log(databaseData);
+
+      var neighborhoodData = <%= JSON.stringify(json.data) %>;
+      console.log(neighborhoodData);
     </script>
 
     <script>
-      var placesearch, autocomplete;
-      var input = document.getElementById('complete');
-      var options = {
-        types: ['geocode'],
-        locality: ['San Francisco']
-      };
+      var inside = require('point-in-polygon');
+      var placeSearch, autocomplete;
 
       function initAutocomplete() {
-         autocomplete = new google.maps.places.Autocomplete(input, options);
-       }
-    </script>
+        autocomplete = new google.maps.places.Autocomplete(
+            (document.getElementById('autocomplete')),
+              {
+                types: ['geocode']
+              }
+            );
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&callback=initAutocomplete" async defer></script>
+        autocomplete.addListener('place_changed', function(){
+                var geocoder = new google.maps.Geocoder();
+                var address = document.getElementById('autocomplete').value;
+
+                geocoder.geocode({ 'address': address }, function (results, status) {
+
+                if (status == google.maps.GeocoderStatus.OK) {
+                    var latitude = results[0].geometry.location.lat();
+                    var longitude = results[0].geometry.location.lng();
+                    console.log(longitude + ", " + latitude);
+                }
+              })
+
+        })
+      }
+
+      for (var i = 0; i < neighborhoodData.features.length; i++) {
+
+        for (var h = 0; h < neighborhoodData.features[i].geometry.coordinates[0].length; h++)
+
+        var polygon = neighborhoodData.features[i].geometry.coordinates[0][h];
+        var district = neighborhoodData.features[i].properties.neighbourhood;
+        var userinput = [longitude, latitude];
+
+        console.log(polygon);
+
+        if (inside(userinput, polygon) == true) {
+          console.log("hello!");
+          console.log(district);
+        }
+        else {
+          console.log("fail");
+          console.log(district);
+        }
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&region=us&callback=initAutocomplete" async defer></script>
 
     <script src="../searchable_app.js" async></script>
     <%= t.include("partials/_foot.html") %>
-    <%= t.include("partials/_helloSFC.html") %>
+   <!-- <%= t.include("partials/_helloSFC.html") %> -->
   </body>
 </html>
