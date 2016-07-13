@@ -556,8 +556,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    function ascendingDepth(a, b) {
-				if (a.name == "<$50K" || b.name == "<$50K") {
-					return a.y-b.y;
+				if ((a.name[0] == "$") || (a.name[1] == "$")) {
+					if (b.name == ">$1000") {
+						return b.y-a.y;
+					} else if (a.name[1] > b.name[1]) {
+						return a.y-b.y;
+					} else {
+						return b.y-a.y;
+					}
 				} else {
 		      return b.y - a.y;
 				}
@@ -582,6 +588,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 
 	    function ascendingSourceDepth(a, b) {
+				// console.log(a.source.name);
 	      return a.source.y - b.source.y;
 	    }
 
@@ -734,6 +741,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	      update.apply(transition.duration(50));
 	    }
+
 	  },
 
 	  selection: function(_) {
@@ -811,6 +819,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    links = links.concat(getConnectionsNode(o.target, 'target'));
 	  }
 
+		console.log(links);
 	  return links;
 	}
 
@@ -819,9 +828,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	// is one target link (or none, in which case the node is an endnode); if
 	// direction is 'target' vice versa. Open the product example to see why.
 	function getConnectionsNode(o, direction) {
+		console.log(o);
+		console.log(direction);
 	  var links = [o];
 	  direction = direction || 'both';
 
+		console.log("source links:");
+		console.log(o.sourceLinks);
+		console.log("target links:");
+		console.log(o.targetLinks);
 	  if ((direction == 'source' && o.sourceLinks.length < 2) || direction == 'both') {
 	    o.targetLinks.forEach(function(p) { links = links.concat(getConnectionsLink(p, direction)); });
 	  }

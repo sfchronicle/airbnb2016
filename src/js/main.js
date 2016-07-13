@@ -5,26 +5,41 @@ var Sankey = require('./lib/d3.chart.sankey');
 
 var colors = {
 
-      'richmonddistrict': '#6C85A5',
-      'downtown': '#D13D59',
-      'innersunset': '#D04B61',
-      'nobhill': '#889C6B',
-      'marina': '#61988E',
+      'entirehome/apt': '#6C85A5',
+      'privateroom': '#D13D59',
+      'sharedroom': '#D04B61',
+
+      'marina': '#889C6B',
+      'richmonddistrict': '#9FA7B3',
+      'downtown': '#A89170',
+      'innersunset': '#61988E',
       'soma': '#6E7B8E',
-      'hayesvalley': '#80A9D0',
+      'westernaddition/nopa': '#80A9D0',
+      'hayesvalley': '#FFE599',
+      'pacificheights': '#FFCC32',
+      'thecastro': '#99B4CF',
+      'haight-ashbury': '#99B4CF',
+      'potrerohill': '#E89EAC',
+      'missiondistrict': '#996B7D',
+      'bernalheights': '#E59FA6',
+      'noevalley': '#61988E',
+      'nobhill': '#846A6A',
 
-      'privateroom': '#996B7D',
-      'entirehome/apt': '#A89170',
-
-
-      '<$50k': '#493843',
-      '$50-100k': '#80A9D0',
-      '$100-150k': '#DE8067',
-      '>$150k': '#FFE599',
-
-      'test1': 'red',
-      'test2': 'blue',
-      'test3': 'green',
+      '>$1000': '#EB8F6A',
+      '$500-$999': '#6F7D8C',
+      '$400-$499': '#DE8067',
+      '$300-$399': '#667A96',
+      '$200-$299': '#FFE599',
+      '$100-$199': '#9C8B9E',
+      '<$100': '#D04B61',
+      //
+      // 'veryhigh': '#996B7D',
+      // 'high': '#DE8067',
+      // 'mid': '#493843',
+      // 'low': '#80A9D0',
+      //
+      // '$100-150k': '#DE8067',
+      // '>$150k': '#FFE599',
 
       'fallback': '#D13D59'
 
@@ -39,14 +54,14 @@ AirbnbData.forEach(function (d) {
   graph.nodes.push({ "name": d.count_bin });
   graph.nodes.push({ "name": d.price_range});
 
-  graph.links.push({ "source": d.neighborhood,
-                     "target": d.room_type,
-                     "value": +1 });
   graph.links.push({ "source": d.room_type,
-                      "target": d.count_bin,
-                      "value": +1 });
-  graph.links.push({ "source": d.count_bin,
+                     "target": d.neighborhood,
+                     "value": +1 });
+  graph.links.push({ "source": d.neighborhood,
                       "target": d.price_range,
+                      "value": +1 });
+  graph.links.push({ "source": d.price_range,
+                      "target": d.count_bin,
                       "value":+1 });
  });
 
@@ -67,6 +82,8 @@ AirbnbData.forEach(function (d) {
    graph.nodes[i] = { "name": d };
  });
 
+ console.log(graph);
+
 var chart = d3.select("#sankeygraph").append("svg").chart("Sankey.Path");
 chart
   .name(label)
@@ -75,7 +92,7 @@ chart
     return color(node, 1) || colors.fallback;
   })
   .colorLinks(function(link) {
-    return color(link.source, 1) || colors.fallback;//|| color(link.target, 1)
+    return color(link.source, 4) || color(link.target, 1) || colors.fallback;
   })
   .nodeWidth(20)
   .nodePadding(5)

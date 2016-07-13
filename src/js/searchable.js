@@ -1,5 +1,5 @@
 require("component-responsive-frame/child");
-require("angular");
+// require("angular");
 var app = angular.module("search", []);
 
 app.controller("SearchController", ["$scope", function($scope) {
