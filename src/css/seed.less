@@ -17,6 +17,19 @@
 @dark-blue: #395272;
 @redlinks: #EC1C24;
 
+body {
+  font-family: @block-graphics;
+  max-width: 900px;
+  margin: auto;
+}
+
+.divider-div {
+  border-bottom: 1px @df-border-gray solid;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 .hed {
   font-weight: bold;
   font-size: 20px;
@@ -30,6 +43,16 @@
   }
   @media @mobile {
     padding: 0 10px;
+  }
+}
+.chart-hed, .bars-hed {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+  @media @mobile {
+    margin: 0 10px;
+    font-size: 20px;
   }
 }
 .chatter {
@@ -77,6 +100,33 @@
 }
 
 // sankey ----------------------------------------------------------------------
+
+.sankey-header {
+  margin: auto;
+  font-size: 14px;
+}
+
+.hed1, .hed2, .hed3, .hed4 {
+  display: inline-block;
+  width: 24.5%;
+  margin: 12px 0;
+}
+.hed1 {
+  right: 0%;
+  text-align: left;
+}
+.hed2 {
+  right: 30%;
+  text-align: center;
+}
+.hed3 {
+  left: 60%;
+  text-align: center;
+}
+.hed4 {
+  left: 100%;
+  text-align: right;
+}
 
 .node {
   font-size: 13px;
