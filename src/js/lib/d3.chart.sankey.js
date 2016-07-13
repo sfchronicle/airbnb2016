@@ -800,6 +800,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 	function getConnections(o, direction) {
+		console.log("looking for connections");
 	  if (o.source && o.target) {
 	    return getConnectionsLink(o, direction);
 	  } else {
@@ -809,6 +810,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// Return the link and its connected nodes with their links etc.
 	function getConnectionsLink(o, direction) {
+		console.log("getting links");
 	  var links = [o];
 	  direction = direction || 'both';
 
@@ -828,15 +830,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	// is one target link (or none, in which case the node is an endnode); if
 	// direction is 'target' vice versa. Open the product example to see why.
 	function getConnectionsNode(o, direction) {
-		console.log(o);
-		console.log(direction);
+		console.log("getting nodes");
 	  var links = [o];
 	  direction = direction || 'both';
 
-		console.log("source links:");
-		console.log(o.sourceLinks);
-		console.log("target links:");
-		console.log(o.targetLinks);
 	  if ((direction == 'source' && o.sourceLinks.length < 2) || direction == 'both') {
 	    o.targetLinks.forEach(function(p) { links = links.concat(getConnectionsLink(p, direction)); });
 	  }
