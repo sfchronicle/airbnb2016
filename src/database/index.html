@@ -22,14 +22,14 @@
       <div style="float: left; width: 40%; text-align: center; margin-bottom: 20px">Search by address</div>
       <div style="float: left; width: 40%; text-align: center; margin-bottom: 20px">Search by neighborhood</div>
 
-      <input id="autocomplete" placeholder="Enter your address"
-             type="text"></input>
+      <input id="autocomplete" placeholder="&#xf002;  Enter your address"
+             type="text" style="font-family:AntennaExtraLight, FontAwesome"></input>
+
+      <div id="aboutyourarea"></div>
 
 
         <div ng-controller="SearchController" ng-app="search" ng-cloak>
          <input type="text" ng-model="searchKeyword" placeholder="&#xf002;  Look up your neighborhood" id="complete" style="font-family:AntennaExtraLight, FontAwesome">
-
-         <input type="text" placeholder="&#xf002;  Search for your address" id="address" style="font-family:AntennaExtraLight, FontAwesome">
 
           <div class="scroll-section">
             <table>
@@ -92,6 +92,7 @@
       console.log(neighborhoodData);
     </script>
 
+<<<<<<< HEAD
     <script src="../searchable_app.js" async></script>
     <script>
 
@@ -146,6 +147,10 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&region=us&callback=initAutocomplete" async defer></script>
 
+=======
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places"></script>
+    <script src="../searchable_app.js"></script>
+>>>>>>> 56a3cb08bf673f05ac3e67e3129c947d6877bc4e
     <%= t.include("partials/_foot.html") %>
    <!-- <%= t.include("partials/_helloSFC.html") %> -->
   </body>
