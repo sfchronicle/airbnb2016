@@ -71,10 +71,10 @@ AirbnbData.forEach(function (d) {
   //   console.log("problem with count");
   // }
 
-  graph.links.push({ "source": d.neighborhood,
-                      "target": d.price_bin,
-                      "value": +d.count });
   graph.links.push({ "source": d.price_bin,
+                      "target": d.neighborhood,
+                      "value": +d.count });
+  graph.links.push({ "source": d.neighborhood,
                       "target": d.review_bin,
                       "value":+d.count });
  });
@@ -106,7 +106,12 @@ chart
     return color(node, 1) || colors.fallback;
   })
   .colorLinks(function(link) {
-    return color(link.source, 4) || color(link.target, 1) || colors.fallback;
+    console.log(link);
+    if (link.source.name.indexOf("$") > -1) {
+      return color(link.target, 1) || color(link.source, 4) || colors.fallback;
+    } else {
+      return color(link.source, 4) || color(link.target, 1) || colors.fallback;
+    }
   })
   .nodeWidth(20)
   .nodePadding(5)
