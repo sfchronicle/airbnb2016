@@ -50,8 +50,6 @@ var colors = {
 //set up graph in same style as original example but empty
 var graph = {"nodes" : [], "links" : []};
 
-console.log(AirbnbData);
-
 AirbnbData.forEach(function (d) {
   // console.log(d);
   graph.nodes.push({ "name": d.neighborhood });
@@ -96,8 +94,6 @@ AirbnbData.forEach(function (d) {
    graph.nodes[i] = { "name": d };
  });
 
- console.log(graph);
-
 var chart = d3.select("#sankeygraph").append("svg").chart("Sankey.Path");
 chart
   .name(label)
@@ -106,7 +102,6 @@ chart
     return color(node, 1) || colors.fallback;
   })
   .colorLinks(function(link) {
-    console.log(link);
     if (link.source.name.indexOf("$") > -1) {
       return color(link.target, 1) || color(link.source, 4) || colors.fallback;
     } else {

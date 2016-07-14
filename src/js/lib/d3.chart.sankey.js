@@ -561,7 +561,6 @@ return /******/ (function(modules) { // webpackBootstrap
 				}
 				if ((a.name[0] == "$") || (a.name[1] == "$")) {
 					if (a.name == ">$500") {
-						console.log("we are here");
 						return a.y-b.y;
 					} else if (a.name[1] > b.name[1]) {
 						return a.y-b.y;
@@ -847,7 +846,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    o.sourceLinks.forEach(function(p) { links = links.concat(getConnectionsLink(p, direction)); });
 	  }
 
-		console.log(links);
 	  return links;
 	}
 
