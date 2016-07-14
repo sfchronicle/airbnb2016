@@ -1,9 +1,6 @@
 require("component-responsive-frame/child");
 require("angular");
 var app = angular.module("search", []);
-<<<<<<< HEAD
-
-=======
 var inside = require('point-in-polygon');
       
 var placeSearch, autocomplete;
@@ -59,7 +56,6 @@ function initAutocomplete() {
 }
 
 initAutocomplete();
->>>>>>> 56a3cb08bf673f05ac3e67e3129c947d6877bc4e
 
 app.controller("SearchController", ["$scope", function($scope) {
 
