@@ -92,10 +92,10 @@
       console.log(neighborhoodData);
     </script>
 
-    <script src="../searchable_app.js" async></script>
     <script>
       
       var placeSearch, autocomplete;
+      var latitude, longitude;
 
       function initAutocomplete() {
         autocomplete = new google.maps.places.Autocomplete(
@@ -110,41 +110,20 @@
                 var address = document.getElementById('autocomplete').value;
 
                 geocoder.geocode({ 'address': address }, function (results, status) {
-
-                if (status == google.maps.GeocoderStatus.OK) {
-                    var latitude = results[0].geometry.location.lat();
-                    var longitude = results[0].geometry.location.lng();
-                    console.log(longitude + ", " + latitude);
-
-                    for (var i = 0; i < neighborhoodData.features.length; i++) {
-
-                      for (var h = 0; h < neighborhoodData.features[i].geometry.coordinates[0].length; h++)
-
-                      var polygon = neighborhoodData.features[i].geometry.coordinates[0][h];
-                      var district = neighborhoodData.features[i].properties.neighbourhood;
-                      var userinput = [longitude, latitude];
-
-                      console.log(polygon);
-
-                      if (inside(userinput, polygon) == true) {
-                        console.log("hello!");
-                        console.log(district);
-                      }
-                      else {
-                        console.log("fail");
-                        console.log(district);
-                      }
-                    }
-
-                }
+                  if (status == google.maps.GeocoderStatus.OK) {
+                      latitude = results[0].geometry.location.lat();
+                      longitude = results[0].geometry.location.lng();
+                      console.log(longitude + ", " + latitude);
+                  }
               })
 
         })
       }
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&region=us&callback=initAutocomplete" async defer></script>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places&region=us&callback=initAutocomplete" async defer></script>
+    <script src="../searchable_app.js" async></script>
     <%= t.include("partials/_foot.html") %>
    <!-- <%= t.include("partials/_helloSFC.html") %> -->
   </body>
