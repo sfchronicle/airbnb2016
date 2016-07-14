@@ -1,0 +1,146 @@
+neighborhood,price_bin,review_bin,count
+Bernal Heights,<$100,low,48
+Bernal Heights,$100-$200,low,139
+Bernal Heights,$201-$300,low,36
+Bernal Heights,$301-$400,low,19
+Bernal Heights,$401-$500,low,6
+Bernal Heights,>$500,low,5
+Bernal Heights,<$100,mid,4
+Bernal Heights,$100-$200,mid,11
+Bernal Heights,$201-$300,mid,1
+Bernal Heights,<$100,high,1
+Bernal Heights,$201-$300,high,1
+Downtown,<$100,low,41
+Downtown,$100-$200,low,101
+Downtown,$201-$300,low,21
+Downtown,$301-$400,low,7
+Downtown,$401-$500,low,3
+Downtown,>$500,low,6
+Downtown,$100-$200,mid,3
+Downtown,$100-$200,high,1
+Haight-Ashbury,<$100,low,22
+Haight-Ashbury,$100-$200,low,63
+Haight-Ashbury,$201-$300,low,29
+Haight-Ashbury,$301-$400,low,17
+Haight-Ashbury,$401-$500,low,8
+Haight-Ashbury,>$500,low,6
+Haight-Ashbury,<$100,mid,9
+Haight-Ashbury,$100-$200,mid,11
+Haight-Ashbury,$201-$300,mid,1
+Haight-Ashbury,<$100,high,3
+Inner Sunset,<$100,low,29
+Inner Sunset,$100-$200,low,43
+Inner Sunset,$201-$300,low,13
+Inner Sunset,$301-$400,low,8
+Inner Sunset,$401-$500,low,2
+Inner Sunset,>$500,low,2
+Inner Sunset,<$100,mid,5
+Inner Sunset,$100-$200,mid,10
+Inner Sunset,$301-$400,mid,1
+Inner Sunset,<$100,high,1
+Inner Sunset,$100-$200,high,1
+Marina,<$100,low,5
+Marina,$100-$200,low,44
+Marina,$201-$300,low,27
+Marina,$301-$400,low,17
+Marina,$401-$500,low,5
+Marina,>$500,low,9
+Marina,$100-$200,mid,5
+Marina,$100-$200,high,1
+Mission District,<$100,low,177
+Mission District,$100-$200,low,309
+Mission District,$201-$300,low,120
+Mission District,$301-$400,low,31
+Mission District,$401-$500,low,30
+Mission District,>$500,low,28
+Mission District,<$100,mid,6
+Mission District,$100-$200,mid,24
+Mission District,$201-$300,mid,2
+Mission District,$301-$400,mid,1
+Mission District,<$100,high,3
+Mission District,$100-$200,high,3
+Mission District,$201-$300,high,1
+Mission District,$100-$200,very high,3
+Nob Hill,<$100,low,26
+Nob Hill,$100-$200,low,113
+Nob Hill,$201-$300,low,30
+Nob Hill,$301-$400,low,13
+Nob Hill,$401-$500,low,5
+Nob Hill,>$500,low,6
+Nob Hill,<$100,mid,2
+Nob Hill,$100-$200,mid,1
+Nob Hill,$201-$300,mid,1
+Nob Hill,$100-$200,high,1
+Noe Valley,<$100,low,34
+Noe Valley,$100-$200,low,114
+Noe Valley,$201-$300,low,49
+Noe Valley,$301-$400,low,19
+Noe Valley,$401-$500,low,9
+Noe Valley,>$500,low,9
+Noe Valley,<$100,mid,5
+Noe Valley,$100-$200,mid,9
+Noe Valley,$201-$300,mid,2
+Noe Valley,<$100,high,2
+Noe Valley,$100-$200,high,1
+Outer Sunset,<$100,low,132
+Outer Sunset,$100-$200,low,79
+Outer Sunset,$201-$300,low,29
+Outer Sunset,$301-$400,low,6
+Outer Sunset,$401-$500,low,7
+Outer Sunset,>$500,low,1
+Outer Sunset,<$100,mid,5
+Outer Sunset,$100-$200,mid,9
+Outer Sunset,<$100,high,1
+Pacific Heights,<$100,low,17
+Pacific Heights,$100-$200,low,78
+Pacific Heights,$201-$300,low,39
+Pacific Heights,$301-$400,low,21
+Pacific Heights,$401-$500,low,6
+Pacific Heights,>$500,low,15
+Pacific Heights,$100-$200,mid,4
+Potrero Hill,<$100,low,15
+Potrero Hill,$100-$200,low,85
+Potrero Hill,$201-$300,low,39
+Potrero Hill,$301-$400,low,7
+Potrero Hill,$401-$500,low,10
+Potrero Hill,>$500,low,7
+Potrero Hill,<$100,mid,3
+Potrero Hill,$100-$200,mid,8
+Potrero Hill,$201-$300,mid,1
+Potrero Hill,<$100,high,1
+Potrero Hill,$100-$200,high,3
+Potrero Hill,<$100,very high,3
+Richmond District,<$100,low,87
+Richmond District,$100-$200,low,138
+Richmond District,$201-$300,low,32
+Richmond District,$301-$400,low,21
+Richmond District,$401-$500,low,6
+Richmond District,>$500,low,3
+Richmond District,<$100,mid,3
+Richmond District,$100-$200,mid,10
+Richmond District,<$100,high,2
+Richmond District,$100-$200,high,3
+Richmond District,<$100,very high,1
+SoMa,<$100,low,110
+SoMa,$100-$200,low,160
+SoMa,$201-$300,low,59
+SoMa,$301-$400,low,32
+SoMa,$401-$500,low,15
+SoMa,>$500,low,9
+SoMa,<$100,mid,3
+SoMa,$100-$200,mid,6
+SoMa,$201-$300,mid,1
+SoMa,$301-$400,mid,1
+The Castro,<$100,low,28
+The Castro,$100-$200,low,118
+The Castro,$201-$300,low,47
+The Castro,$301-$400,low,19
+The Castro,$401-$500,low,9
+The Castro,>$500,low,12
+The Castro,<$100,mid,5
+The Castro,$100-$200,mid,17
+The Castro,$201-$300,mid,2
+The Castro,$301-$400,mid,1
+The Castro,<$100,high,1
+The Castro,$100-$200,high,4
+The Castro,$100-$200,very high,1

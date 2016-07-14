@@ -17,13 +17,14 @@
           The Airbnb rental landscape in SF
         </div>
 
+        <div class="chatter">Hover over or click on the chart below to see how expensive Airbnb rentals are per night in your neighborhood and how many reviews they have.</div>
+
         <div class="divider-div"></div>
 
         <div class="sankey-header">
-          <div class="hed1">by room type</div>
-          <div class="hed2">by neighborhood</div>
-          <div class="hed3">by cost per night</div>
-          <div class="hed4">by review number</div>
+          <div class="hed1">by neighborhood</div>
+          <div class="hed2">by cost per night</div>
+          <div class="hed3">by review number</div>
         </div>
 
         <div class="chart">
@@ -44,7 +45,7 @@
     </responsive-child>
 
     <script>
-      var AirbnbData = <%= JSON.stringify(csv.airbnb_short) %>;
+      var AirbnbData = <%= JSON.stringify(csv.sankey_v4) %>;
     </script>
 
     <script src="../app.js" async></script>

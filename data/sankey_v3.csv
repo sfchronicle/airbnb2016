@@ -1,0 +1,298 @@
+neighborhood,price_bin,review_bin,count
+Bernal Heights,>$500,single review,1
+Bernal Heights,$100 and less,single review,3
+Bernal Heights,$101-$200,single review,15
+Bernal Heights,$201-$300,single review,4
+Bernal Heights,$301-$400,single review,5
+Bernal Heights,$401-$500,single review,3
+Downtown,>$500,single review,5
+Downtown,$100 and less,single review,6
+Downtown,$101-$200,single review,30
+Downtown,$201-$300,single review,6
+Downtown,$301-$400,single review,3
+Downtown,$401-$500,single review,1
+Haight-Ashbury,$100 and less,single review,5
+Haight-Ashbury,$101-$200,single review,9
+Haight-Ashbury,$201-$300,single review,4
+Haight-Ashbury,$301-$400,single review,3
+Haight-Ashbury,$401-$500,single review,1
+Hayes Valley,>$500,single review,1
+Hayes Valley,$100 and less,single review,7
+Hayes Valley,$101-$200,single review,9
+Hayes Valley,$201-$300,single review,2
+Inner Sunset,$100 and less,single review,8
+Inner Sunset,$101-$200,single review,7
+Inner Sunset,$201-$300,single review,2
+Inner Sunset,$301-$400,single review,2
+Mission District,>$500,single review,7
+Mission District,$100 and less,single review,28
+Mission District,$101-$200,single review,34
+Mission District,$201-$300,single review,13
+Mission District,$301-$400,single review,3
+Mission District,$401-$500,single review,3
+Nob Hill,$100 and less,single review,15
+Nob Hill,$101-$200,single review,18
+Nob Hill,$201-$300,single review,4
+Nob Hill,$301-$400,single review,4
+Nob Hill,$401-$500,single review,4
+Noe Valley,>$500,single review,2
+Noe Valley,$100 and less,single review,3
+Noe Valley,$101-$200,single review,22
+Noe Valley,$201-$300,single review,6
+Noe Valley,$301-$400,single review,2
+Noe Valley,$401-$500,single review,1
+Outer Sunset,>$500,single review,1
+Outer Sunset,$100 and less,single review,20
+Outer Sunset,$101-$200,single review,10
+Outer Sunset,$201-$300,single review,2
+Outer Sunset,$301-$400,single review,2
+Outer Sunset,$401-$500,single review,1
+Pacific Heights,>$500,single review,2
+Pacific Heights,$100 and less,single review,6
+Pacific Heights,$101-$200,single review,12
+Pacific Heights,$201-$300,single review,10
+Pacific Heights,$301-$400,single review,3
+Pacific Heights,$401-$500,single review,2
+Potrero Hill,>$500,single review,1
+Potrero Hill,$100 and less,single review,3
+Potrero Hill,$101-$200,single review,6
+Potrero Hill,$201-$300,single review,8
+Potrero Hill,$401-$500,single review,4
+Richmond District,>$500,single review,1
+Richmond District,$100 and less,single review,10
+Richmond District,$101-$200,single review,11
+Richmond District,$201-$300,single review,5
+Richmond District,$301-$400,single review,2
+Richmond District,$401-$500,single review,1
+SoMa,>$500,single review,3
+SoMa,$100 and less,single review,24
+SoMa,$101-$200,single review,21
+SoMa,$201-$300,single review,10
+SoMa,$301-$400,single review,4
+SoMa,$401-$500,single review,3
+The Castro,>$500,single review,2
+The Castro,$100 and less,single review,4
+The Castro,$101-$200,single review,12
+The Castro,$201-$300,single review,10
+The Castro,$301-$400,single review,2
+The Castro,$401-$500,single review,1
+Western Addition/NOPA,>$500,single review,4
+Western Addition/NOPA,$100 and less,single review,15
+Western Addition/NOPA,$101-$200,single review,18
+Western Addition/NOPA,$201-$300,single review,8
+Western Addition/NOPA,$301-$400,single review,4
+Western Addition/NOPA,$401-$500,single review,3
+Bernal Heights,>$500,up to 10,4
+Bernal Heights,$100 and less,up to 10,24
+Bernal Heights,$101-$200,up to 10,48
+Bernal Heights,$201-$300,up to 10,16
+Bernal Heights,$301-$400,up to 10,8
+Bernal Heights,$401-$500,up to 10,2
+Downtown,>$500,up to 10,1
+Downtown,$100 and less,up to 10,9
+Downtown,$101-$200,up to 10,36
+Downtown,$201-$300,up to 10,12
+Downtown,$301-$400,up to 10,1
+Haight-Ashbury,>$500,up to 10,2
+Haight-Ashbury,$100 and less,up to 10,8
+Haight-Ashbury,$101-$200,up to 10,22
+Haight-Ashbury,$201-$300,up to 10,7
+Haight-Ashbury,$301-$400,up to 10,9
+Haight-Ashbury,$401-$500,up to 10,4
+Hayes Valley,>$500,up to 10,2
+Hayes Valley,$100 and less,up to 10,10
+Hayes Valley,$101-$200,up to 10,28
+Hayes Valley,$201-$300,up to 10,9
+Hayes Valley,$301-$400,up to 10,4
+Hayes Valley,$401-$500,up to 10,4
+Inner Sunset,>$500,up to 10,1
+Inner Sunset,$100 and less,up to 10,12
+Inner Sunset,$101-$200,up to 10,14
+Inner Sunset,$201-$300,up to 10,6
+Inner Sunset,$301-$400,up to 10,3
+Inner Sunset,$401-$500,up to 10,2
+Mission District,>$500,up to 10,13
+Mission District,$100 and less,up to 10,78
+Mission District,$101-$200,up to 10,115
+Mission District,$201-$300,up to 10,61
+Mission District,$301-$400,up to 10,14
+Mission District,$401-$500,up to 10,15
+Nob Hill,>$500,up to 10,5
+Nob Hill,$100 and less,up to 10,14
+Nob Hill,$101-$200,up to 10,47
+Nob Hill,$201-$300,up to 10,17
+Nob Hill,$301-$400,up to 10,7
+Nob Hill,$401-$500,up to 10,1
+Noe Valley,>$500,up to 10,5
+Noe Valley,$100 and less,up to 10,13
+Noe Valley,$101-$200,up to 10,41
+Noe Valley,$201-$300,up to 10,23
+Noe Valley,$301-$400,up to 10,9
+Noe Valley,$401-$500,up to 10,3
+Outer Sunset,$100 and less,up to 10,62
+Outer Sunset,$101-$200,up to 10,21
+Outer Sunset,$201-$300,up to 10,10
+Outer Sunset,$301-$400,up to 10,3
+Outer Sunset,$401-$500,up to 10,4
+Pacific Heights,>$500,up to 10,10
+Pacific Heights,$100 and less,up to 10,9
+Pacific Heights,$101-$200,up to 10,28
+Pacific Heights,$201-$300,up to 10,18
+Pacific Heights,$301-$400,up to 10,7
+Pacific Heights,$401-$500,up to 10,3
+Potrero Hill,>$500,up to 10,4
+Potrero Hill,$100 and less,up to 10,11
+Potrero Hill,$101-$200,up to 10,29
+Potrero Hill,$201-$300,up to 10,12
+Potrero Hill,$301-$400,up to 10,3
+Potrero Hill,$401-$500,up to 10,5
+Richmond District,$100 and less,up to 10,34
+Richmond District,$101-$200,up to 10,39
+Richmond District,$201-$300,up to 10,17
+Richmond District,$301-$400,up to 10,11
+Richmond District,$401-$500,up to 10,3
+SoMa,>$500,up to 10,1
+SoMa,$100 and less,up to 10,59
+SoMa,$101-$200,up to 10,62
+SoMa,$201-$300,up to 10,31
+SoMa,$301-$400,up to 10,13
+SoMa,$401-$500,up to 10,9
+The Castro,>$500,up to 10,4
+The Castro,$100 and less,up to 10,12
+The Castro,$101-$200,up to 10,46
+The Castro,$201-$300,up to 10,14
+The Castro,$301-$400,up to 10,7
+The Castro,$401-$500,up to 10,3
+Western Addition/NOPA,>$500,up to 10,9
+Western Addition/NOPA,$100 and less,up to 10,26
+Western Addition/NOPA,$101-$200,up to 10,54
+Western Addition/NOPA,$201-$300,up to 10,20
+Western Addition/NOPA,$301-$400,up to 10,11
+Western Addition/NOPA,$401-$500,up to 10,4
+Bernal Heights,$100 and less,over 100,5
+Bernal Heights,$101-$200,over 100,12
+Bernal Heights,$201-$300,over 100,1
+Downtown,$101-$200,over 100,4
+Haight-Ashbury,$100 and less,over 100,12
+Haight-Ashbury,$101-$200,over 100,9
+Haight-Ashbury,$201-$300,over 100,1
+Hayes Valley,$100 and less,over 100,1
+Hayes Valley,$101-$200,over 100,4
+Hayes Valley,$201-$300,over 100,1
+Inner Sunset,$100 and less,over 100,7
+Inner Sunset,$101-$200,over 100,10
+Inner Sunset,$301-$400,over 100,1
+Mission District,$100 and less,over 100,11
+Mission District,$101-$200,over 100,26
+Mission District,$201-$300,over 100,3
+Mission District,$301-$400,over 100,1
+Nob Hill,$100 and less,over 100,2
+Nob Hill,$101-$200,over 100,2
+Nob Hill,$201-$300,over 100,1
+Noe Valley,$100 and less,over 100,7
+Noe Valley,$101-$200,over 100,9
+Noe Valley,$201-$300,over 100,2
+Outer Sunset,$100 and less,over 100,5
+Outer Sunset,$101-$200,over 100,10
+Pacific Heights,$101-$200,over 100,4
+Potrero Hill,$100 and less,over 100,4
+Potrero Hill,$101-$200,over 100,14
+Potrero Hill,$201-$300,over 100,1
+Richmond District,$100 and less,over 100,8
+Richmond District,$101-$200,over 100,11
+SoMa,$100 and less,over 100,4
+SoMa,$101-$200,over 100,5
+SoMa,$201-$300,over 100,1
+SoMa,$301-$400,over 100,1
+The Castro,$100 and less,over 100,6
+The Castro,$101-$200,over 100,22
+The Castro,$201-$300,over 100,2
+The Castro,$301-$400,over 100,1
+Western Addition/NOPA,$100 and less,over 100,6
+Western Addition/NOPA,$101-$200,over 100,11
+Western Addition/NOPA,$201-$300,over 100,1
+Western Addition/NOPA,$301-$400,over 100,1
+Bernal Heights,$100 and less,up to 100,27
+Bernal Heights,$101-$200,up to 100,70
+Bernal Heights,$201-$300,up to 100,16
+Bernal Heights,$301-$400,up to 100,6
+Bernal Heights,$401-$500,up to 100,1
+Downtown,$100 and less,up to 100,29
+Downtown,$101-$200,up to 100,32
+Downtown,$201-$300,up to 100,3
+Downtown,$301-$400,up to 100,3
+Downtown,$401-$500,up to 100,2
+Haight-Ashbury,>$500,up to 100,4
+Haight-Ashbury,$100 and less,up to 100,10
+Haight-Ashbury,$101-$200,up to 100,33
+Haight-Ashbury,$201-$300,up to 100,18
+Haight-Ashbury,$301-$400,up to 100,5
+Haight-Ashbury,$401-$500,up to 100,3
+Hayes Valley,$100 and less,up to 100,7
+Hayes Valley,$101-$200,up to 100,33
+Hayes Valley,$201-$300,up to 100,15
+Hayes Valley,$301-$400,up to 100,6
+Hayes Valley,$401-$500,up to 100,2
+Inner Sunset,>$500,up to 100,1
+Inner Sunset,$100 and less,up to 100,13
+Inner Sunset,$101-$200,up to 100,18
+Inner Sunset,$201-$300,up to 100,5
+Inner Sunset,$301-$400,up to 100,3
+Mission District,>$500,up to 100,8
+Mission District,$100 and less,up to 100,89
+Mission District,$101-$200,up to 100,144
+Mission District,$201-$300,up to 100,46
+Mission District,$301-$400,up to 100,14
+Mission District,$401-$500,up to 100,12
+Nob Hill,>$500,up to 100,1
+Nob Hill,$100 and less,up to 100,6
+Nob Hill,$101-$200,up to 100,39
+Nob Hill,$201-$300,up to 100,9
+Nob Hill,$301-$400,up to 100,2
+Noe Valley,>$500,up to 100,2
+Noe Valley,$100 and less,up to 100,21
+Noe Valley,$101-$200,up to 100,49
+Noe Valley,$201-$300,up to 100,20
+Noe Valley,$301-$400,up to 100,8
+Noe Valley,$401-$500,up to 100,5
+Outer Sunset,$100 and less,up to 100,54
+Outer Sunset,$101-$200,up to 100,44
+Outer Sunset,$201-$300,up to 100,17
+Outer Sunset,$301-$400,up to 100,1
+Outer Sunset,$401-$500,up to 100,2
+Pacific Heights,>$500,up to 100,3
+Pacific Heights,$100 and less,up to 100,5
+Pacific Heights,$101-$200,up to 100,35
+Pacific Heights,$201-$300,up to 100,11
+Pacific Heights,$301-$400,up to 100,11
+Pacific Heights,$401-$500,up to 100,1
+Potrero Hill,>$500,up to 100,2
+Potrero Hill,$100 and less,up to 100,5
+Potrero Hill,$101-$200,up to 100,46
+Potrero Hill,$201-$300,up to 100,19
+Potrero Hill,$301-$400,up to 100,4
+Potrero Hill,$401-$500,up to 100,1
+Richmond District,>$500,up to 100,2
+Richmond District,$100 and less,up to 100,51
+Richmond District,$101-$200,up to 100,80
+Richmond District,$201-$300,up to 100,10
+Richmond District,$301-$400,up to 100,8
+Richmond District,$401-$500,up to 100,2
+SoMa,>$500,up to 100,5
+SoMa,$100 and less,up to 100,47
+SoMa,$101-$200,up to 100,57
+SoMa,$201-$300,up to 100,18
+SoMa,$301-$400,up to 100,15
+SoMa,$401-$500,up to 100,3
+The Castro,>$500,up to 100,6
+The Castro,$100 and less,up to 100,17
+The Castro,$101-$200,up to 100,55
+The Castro,$201-$300,up to 100,23
+The Castro,$301-$400,up to 100,10
+The Castro,$401-$500,up to 100,5
+Western Addition/NOPA,>$500,up to 100,6
+Western Addition/NOPA,$100 and less,up to 100,35
+Western Addition/NOPA,$101-$200,up to 100,63
+Western Addition/NOPA,$201-$300,up to 100,27
+Western Addition/NOPA,$301-$400,up to 100,13
+Western Addition/NOPA,$401-$500,up to 100,1

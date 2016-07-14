@@ -7,13 +7,14 @@ var colors = {
 
       'entirehome/apt': '#6C85A5',
       'privateroom': '#D13D59',
-      'sharedroom': '#D04B61',
+      'sharedroom': '#FFE599',
 
       'marina': '#889C6B',
       'richmonddistrict': '#9FA7B3',
       'downtown': '#A89170',
       'innersunset': '#61988E',
       'soma': '#6E7B8E',
+      'outersunset': '#80A9D0',
       'westernaddition/nopa': '#80A9D0',
       'hayesvalley': '#FFE599',
       'pacificheights': '#FFCC32',
@@ -25,44 +26,57 @@ var colors = {
       'noevalley': '#61988E',
       'nobhill': '#846A6A',
 
-      '>$1000': '#EB8F6A',
-      '$500-$999': '#6F7D8C',
-      '$400-$499': '#DE8067',
-      '$300-$399': '#667A96',
-      '$200-$299': '#FFE599',
-      '$100-$199': '#9C8B9E',
-      '<$100': '#D04B61',
+      '>$500': '#6F7D8C',
+      // '$500-$999': '#EB8F6A',
+      '$401-$500': '#DE8067',
+      '$301-$400': '#667A96',
+      '$201-$300': '#FFE599',
+      '$101-$200': '#9C8B9E',
+      '$100andless': '#D04B61',
       //
-      // 'veryhigh': '#996B7D',
-      // 'high': '#DE8067',
-      // 'mid': '#493843',
-      // 'low': '#80A9D0',
+      'over100': '#996B7D',
+      'upto100': '#DE8067',
+      'upto10': '#D13D59',//#493843',
+      'singlereview': '#6E7B8E',//'#80A9D0',
       //
       // '$100-150k': '#DE8067',
-      // '>$150k': '#FFE599',
 
-      'fallback': '#D13D59'
+      //#D04B61
+
+      'fallback': 'red'
 
     };
 
 //set up graph in same style as original example but empty
 var graph = {"nodes" : [], "links" : []};
 
-AirbnbData.forEach(function (d) {
-  graph.nodes.push({ "name": d.neighborhood });
-  graph.nodes.push({ "name": d.room_type });
-  graph.nodes.push({ "name": d.count_bin });
-  graph.nodes.push({ "name": d.price_range});
+console.log(AirbnbData);
 
-  graph.links.push({ "source": d.room_type,
-                     "target": d.neighborhood,
-                     "value": +1 });
+AirbnbData.forEach(function (d) {
+  // console.log(d);
+  graph.nodes.push({ "name": d.neighborhood });
+  // graph.nodes.push({ "name": d.room_type });
+  graph.nodes.push({ "name": String(d.review_bin) });
+  graph.nodes.push({ "name": d.price_bin});
+  // if (d.neighborhood == null) {
+  //   console.log("problem with neighborhood");
+  // }
+  // if (d.review_bin == null) {
+  //   console.log("problem with review bin");
+  // }
+  // if (d.price_bin == null) {
+  //   console.log("problem with price bin");
+  // }
+  // if (d.count == null) {
+  //   console.log("problem with count");
+  // }
+
   graph.links.push({ "source": d.neighborhood,
-                      "target": d.price_range,
-                      "value": +1 });
-  graph.links.push({ "source": d.price_range,
-                      "target": d.count_bin,
-                      "value":+1 });
+                      "target": d.price_bin,
+                      "value": +d.count });
+  graph.links.push({ "source": d.price_bin,
+                      "target": d.review_bin,
+                      "value":+d.count });
  });
 
  // return only the distinct / unique nodes
@@ -101,15 +115,17 @@ chart
   .draw(graph);
 
 function label(node) {
-  // if (node.name == "San Francisco") {
-  //   return node.name + " (11K)";
-  // } else if (node.name == "Santa Clara") {
-  //   return node.name + " (46K)"
-  // } else if (node.name == "San Mateo") {
-  //   return node.name + " (6K)"
-  // } else {
+  if (node.name == "very high") {
+    return node.name + " (>300)";
+  } else if (node.name == "high") {
+    return node.name + " (201-300)"
+  } else if (node.name == "mid") {
+    return node.name + " (100-200)"
+  } else if (node.name == "low") {
+    return node.name + " (<100)"
+  } else {
     return node.name;
-  // }
+  }
 }
 
 function color(node, depth) {

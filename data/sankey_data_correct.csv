@@ -1,0 +1,3699 @@
+neighborhood,price_range,review_range
+Downtown,>$500,<100
+Pacific Heights,>$500,<100
+Pacific Heights,>$500,<100
+Marina,>$500,<100
+Bernal Heights,>$500,<100
+SoMa,>$500,<100
+Mission District,>$500,<100
+Downtown,>$500,<100
+Outer Sunset,>$500,<100
+Richmond District,>$500,<100
+Noe Valley,>$500,<100
+Mission District,>$500,<100
+Mission District,>$500,<100
+The Castro,>$500,<100
+Noe Valley,>$500,<100
+Tenderloin,>$500,<100
+SoMa,>$500,<100
+The Castro,>$500,<100
+Downtown,>$500,<100
+Mission District,>$500,<100
+Downtown,>$500,<100
+Downtown,>$500,<100
+Marina,>$500,<100
+Potrero Hill,>$500,<100
+Marina,>$500,<100
+Mission District,>$500,<100
+SoMa,>$500,<100
+Mission District,>$500,<100
+Mission District,>$500,<100
+Marina,$401-$500,<100
+Nob Hill,$401-$500,<100
+Nob Hill,$401-$500,<100
+Pacific Heights,$401-$500,<100
+Bernal Heights,$401-$500,<100
+Potrero Hill,$401-$500,<100
+SoMa,$401-$500,<100
+Haight-Ashbury,$401-$500,<100
+SoMa,$401-$500,<100
+Bernal Heights,$401-$500,<100
+Richmond District,$401-$500,<100
+Mission District,$401-$500,<100
+Bernal Heights,$401-$500,<100
+SoMa,$401-$500,<100
+Mission District,$401-$500,<100
+Potrero Hill,$401-$500,<100
+Nob Hill,$401-$500,<100
+Mission District,$401-$500,<100
+Pacific Heights,$401-$500,<100
+Potrero Hill,$401-$500,<100
+Outer Sunset,$401-$500,<100
+Downtown,$401-$500,<100
+Noe Valley,$401-$500,<100
+Potrero Hill,$401-$500,<100
+Nob Hill,$401-$500,<100
+The Castro,$401-$500,<100
+Mission District,$301-$400,<100
+Richmond District,$301-$400,<100
+Mission District,$301-$400,<100
+Marina,$301-$400,<100
+Inner Sunset,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Richmond District,$301-$400,<100
+Outer Sunset,$301-$400,<100
+SoMa,$301-$400,<100
+Downtown,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Downtown,$301-$400,<100
+Mission District,$301-$400,<100
+The Castro,$301-$400,<100
+Noe Valley,$301-$400,<100
+SoMa,$301-$400,<100
+Nob Hill,$301-$400,<100
+Nob Hill,$301-$400,<100
+The Castro,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Nob Hill,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Marina,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Nob Hill,$301-$400,<100
+Downtown,$301-$400,<100
+SoMa,$301-$400,<100
+Inner Sunset,$301-$400,<100
+Noe Valley,$301-$400,<100
+SoMa,$301-$400,<100
+Outer Sunset,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Potrero Hill,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Downtown,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Mission District,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Downtown,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Downtown,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+The Castro,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Downtown,$201-$300,<100
+Nob Hill,$201-$300,<100
+Inner Sunset,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$201-$300,<100
+Marina,$201-$300,<100
+Potrero Hill,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$201-$300,<100
+Noe Valley,$201-$300,<100
+Nob Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Richmond District,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+The Castro,$201-$300,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Noe Valley,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Pacific Heights,$201-$300,<100
+The Castro,$201-$300,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Noe Valley,$201-$300,<100
+Noe Valley,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$201-$300,<100
+Richmond District,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Tenderloin,$201-$300,<100
+Tenderloin,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+Richmond District,$201-$300,<100
+Noe Valley,$201-$300,<100
+The Castro,$201-$300,<100
+Bernal Heights,$201-$300,<100
+SoMa,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Downtown,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Downtown,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Marina,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Noe Valley,$100-$200,<100
+Marina,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+Marina,$100-$200,<100
+Downtown,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Pacific Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Tenderloin,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+SoMa,$100-$200,<100
+Marina,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Marina,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Marina,$100-$200,<100
+Marina,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Nob Hill,$100-$200,<100
+Tenderloin,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Downtown,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+The Castro,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Inner Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,<$100,<100
+Haight-Ashbury,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+The Castro,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Inner Sunset,<$100,<100
+Haight-Ashbury,<$100,<100
+Outer Sunset,<$100,<100
+Nob Hill,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Downtown,<$100,<100
+Downtown,<$100,<100
+Bernal Heights,<$100,<100
+Haight-Ashbury,<$100,<100
+Mission District,<$100,<100
+Pacific Heights,<$100,<100
+Inner Sunset,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Mission District,<$100,<100
+Pacific Heights,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Pacific Heights,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Nob Hill,<$100,<100
+Haight-Ashbury,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Pacific Heights,<$100,<100
+Pacific Heights,<$100,<100
+Nob Hill,<$100,<100
+Nob Hill,<$100,<100
+Nob Hill,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+The Castro,<$100,<100
+Inner Sunset,<$100,<100
+SoMa,<$100,<100
+Potrero Hill,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Nob Hill,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Potrero Hill,<$100,<100
+Downtown,<$100,<100
+Mission District,<$100,<100
+Tenderloin,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Pacific Heights,<$100,<100
+Noe Valley,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Tenderloin,<$100,<100
+Mission District,<$100,<100
+Nob Hill,<$100,<100
+Potrero Hill,<$100,<100
+SoMa,<$100,<100
+Bernal Heights,<$100,<100
+Nob Hill,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Inner Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,>$500,<100
+Potrero Hill,>$500,<100
+Mission District,>$500,<100
+The Castro,>$500,<100
+Pacific Heights,>$500,<100
+Mission District,>$500,<100
+Marina,>$500,<100
+Nob Hill,>$500,<100
+Noe Valley,>$500,<100
+Pacific Heights,>$500,<100
+Marina,>$500,<100
+Bernal Heights,>$500,<100
+Nob Hill,>$500,<100
+Marina,>$500,<100
+Downtown,>$500,<100
+Marina,>$500,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+Richmond District,$401-$500,<100
+SoMa,$401-$500,<100
+Noe Valley,$401-$500,<100
+Outer Sunset,$401-$500,<100
+Noe Valley,$401-$500,<100
+Haight-Ashbury,$401-$500,<100
+Potrero Hill,$401-$500,<100
+Potrero Hill,$401-$500,<100
+Mission District,$401-$500,<100
+The Castro,$401-$500,<100
+The Castro,$301-$400,<100
+Inner Sunset,$301-$400,<100
+Marina,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Noe Valley,$301-$400,<100
+SoMa,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Tenderloin,$301-$400,<100
+Mission District,$301-$400,<100
+Marina,$301-$400,<100
+Noe Valley,$301-$400,<100
+Mission District,$301-$400,<100
+Outer Sunset,$301-$400,<100
+Noe Valley,$301-$400,<100
+Noe Valley,$301-$400,<100
+Noe Valley,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Mission District,$301-$400,<100
+Mission District,$301-$400,<100
+Marina,$201-$300,<100
+Noe Valley,$201-$300,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Richmond District,$201-$300,<100
+SoMa,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Richmond District,$201-$300,<100
+The Castro,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+Downtown,$201-$300,<100
+Pacific Heights,$201-$300,<100
+SoMa,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Downtown,$201-$300,<100
+Noe Valley,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Pacific Heights,$201-$300,<100
+SoMa,$201-$300,<100
+Downtown,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Marina,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Marina,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$100-$200,<100
+Marina,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Downtown,$100-$200,<100
+Nob Hill,$100-$200,<100
+Tenderloin,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Marina,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+Tenderloin,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Marina,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Tenderloin,$100-$200,<100
+Tenderloin,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Downtown,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,<$100,<100
+Bernal Heights,<$100,<100
+Downtown,<$100,<100
+Potrero Hill,<$100,<100
+Noe Valley,<$100,<100
+Noe Valley,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Noe Valley,<$100,<100
+Haight-Ashbury,<$100,<100
+Bernal Heights,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Potrero Hill,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Tenderloin,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,<$100,<100
+The Castro,<$100,<100
+Nob Hill,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Bernal Heights,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Pacific Heights,<$100,<100
+Nob Hill,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Inner Sunset,<$100,<100
+Haight-Ashbury,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Marina,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Tenderloin,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Inner Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Noe Valley,>$500,<100
+Pacific Heights,>$500,<100
+Haight-Ashbury,>$500,<100
+Noe Valley,>$500,<100
+Pacific Heights,>$500,<100
+Mission District,>$500,<100
+Mission District,>$500,<100
+Potrero Hill,$401-$500,<100
+SoMa,$401-$500,<100
+Bernal Heights,$401-$500,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+Noe Valley,$401-$500,<100
+Noe Valley,$301-$400,<100
+Mission District,$301-$400,<100
+The Castro,$301-$400,<100
+Outer Sunset,$301-$400,<100
+Downtown,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Nob Hill,$301-$400,<100
+Bernal Heights,$301-$400,<100
+The Castro,$301-$400,<100
+Noe Valley,$301-$400,<100
+Marina,$301-$400,<100
+The Castro,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Richmond District,$301-$400,<100
+The Castro,$301-$400,<100
+SoMa,$301-$400,<100
+SoMa,$301-$400,<100
+Inner Sunset,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Marina,$301-$400,<100
+Mission District,$301-$400,<100
+Pacific Heights,$301-$400,<100
+SoMa,$301-$400,<100
+Outer Sunset,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Tenderloin,$201-$300,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Nob Hill,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Noe Valley,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Marina,$201-$300,<100
+Marina,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+Downtown,$201-$300,<100
+Potrero Hill,$100-$200,<100
+Marina,$100-$200,<100
+Nob Hill,$100-$200,<100
+Marina,$100-$200,<100
+Marina,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Marina,$100-$200,<100
+Marina,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Tenderloin,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Nob Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Marina,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Tenderloin,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Tenderloin,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,<$100,<100
+Pacific Heights,<$100,<100
+Noe Valley,<$100,<100
+Outer Sunset,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Inner Sunset,<$100,<100
+Bernal Heights,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Inner Sunset,<$100,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Inner Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Marina,>$500,<100
+Pacific Heights,>$500,<100
+Pacific Heights,>$500,<100
+Bernal Heights,>$500,<100
+Noe Valley,>$500,<100
+Mission District,>$500,<100
+Bernal Heights,>$500,<100
+Potrero Hill,>$500,<100
+Potrero Hill,>$500,<100
+Mission District,$401-$500,<100
+Nob Hill,$401-$500,<100
+Pacific Heights,$401-$500,<100
+Mission District,$401-$500,<100
+Marina,$401-$500,<100
+SoMa,$401-$500,<100
+Outer Sunset,$401-$500,<100
+Mission District,$301-$400,<100
+Nob Hill,$301-$400,<100
+Mission District,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+SoMa,$301-$400,<100
+Mission District,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Marina,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+SoMa,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Haight-Ashbury,$201-$300,<100
+Mission District,$201-$300,<100
+Pacific Heights,$201-$300,<100
+The Castro,$201-$300,<100
+Marina,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Noe Valley,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Richmond District,$201-$300,<100
+Richmond District,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Marina,$201-$300,<100
+SoMa,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Downtown,$201-$300,<100
+Richmond District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+SoMa,$201-$300,<100
+Downtown,$201-$300,<100
+The Castro,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+Downtown,$201-$300,<100
+Downtown,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$201-$300,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+The Castro,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Potrero Hill,<$100,<100
+Bernal Heights,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+SoMa,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Outer Sunset,<$100,<100
+Nob Hill,<$100,<100
+Mission District,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+Potrero Hill,<$100,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+The Castro,<$100,<100
+Outer Sunset,<$100,<100
+Pacific Heights,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Tenderloin,<$100,<100
+Nob Hill,<$100,<100
+Noe Valley,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Nob Hill,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Pacific Heights,>$500,<100
+Mission District,>$500,<100
+Pacific Heights,>$500,<100
+The Castro,>$500,<100
+The Castro,>$500,<100
+Inner Sunset,>$500,<100
+Haight-Ashbury,>$500,<100
+Pacific Heights,>$500,<100
+Mission District,>$500,<100
+Potrero Hill,$401-$500,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+Bernal Heights,$401-$500,<100
+Haight-Ashbury,$401-$500,<100
+Haight-Ashbury,$401-$500,<100
+Mission District,$301-$400,<100
+Nob Hill,$301-$400,<100
+Nob Hill,$301-$400,<100
+SoMa,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Outer Sunset,$301-$400,<100
+SoMa,$301-$400,<100
+Richmond District,$301-$400,<100
+Nob Hill,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Richmond District,$301-$400,<100
+SoMa,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Downtown,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Marina,$201-$300,<100
+Nob Hill,$201-$300,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Nob Hill,$201-$300,<100
+Marina,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Downtown,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Marina,$100-$200,<100
+Downtown,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Tenderloin,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Marina,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Bernal Heights,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Haight-Ashbury,<$100,<100
+Mission District,<$100,<100
+Marina,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Potrero Hill,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Potrero Hill,<$100,<100
+Marina,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Bernal Heights,>$500,<100
+Nob Hill,>$500,<100
+Nob Hill,>$500,<100
+Mission District,>$500,<100
+Mission District,>$500,<100
+Haight-Ashbury,$401-$500,<100
+Inner Sunset,$401-$500,<100
+The Castro,$401-$500,<100
+Mission District,$401-$500,<100
+SoMa,$401-$500,<100
+Mission District,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Richmond District,$301-$400,<100
+Marina,$301-$400,<100
+Mission District,$301-$400,<100
+Richmond District,$301-$400,<100
+Inner Sunset,$301-$400,<100
+Richmond District,$301-$400,<100
+Richmond District,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Mission District,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Mission District,$301-$400,<100
+SoMa,$201-$300,<100
+SoMa,$201-$300,<100
+Richmond District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+SoMa,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Nob Hill,$201-$300,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Marina,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Nob Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Marina,$201-$300,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Pacific Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Tenderloin,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Pacific Heights,<$100,<100
+Inner Sunset,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Pacific Heights,<$100,<100
+Richmond District,<$100,<100
+Pacific Heights,<$100,<100
+Haight-Ashbury,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,>$500,<100
+The Castro,$401-$500,<100
+SoMa,$401-$500,<100
+Pacific Heights,$401-$500,<100
+Richmond District,$401-$500,<100
+Noe Valley,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Noe Valley,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Richmond District,$301-$400,<100
+Nob Hill,$301-$400,<100
+SoMa,$301-$400,<100
+Richmond District,$301-$400,<100
+Nob Hill,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Mission District,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Noe Valley,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+Tenderloin,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Noe Valley,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Marina,$201-$300,<100
+SoMa,$201-$300,<100
+Potrero Hill,$201-$300,<100
+The Castro,$201-$300,<100
+Nob Hill,$201-$300,<100
+Downtown,$201-$300,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Tenderloin,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Marina,<$100,<100
+Downtown,<$100,<100
+Tenderloin,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+SoMa,<$100,<100
+Tenderloin,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Potrero Hill,>$500,<100
+Pacific Heights,>$500,<100
+The Castro,>$500,<100
+SoMa,$401-$500,<100
+SoMa,$401-$500,<100
+SoMa,$401-$500,<100
+Mission District,$401-$500,<100
+Outer Sunset,$401-$500,<100
+Potrero Hill,$401-$500,<100
+Inner Sunset,$401-$500,<100
+Richmond District,$401-$500,<100
+Outer Sunset,$401-$500,<100
+Pacific Heights,$401-$500,<100
+Mission District,$401-$500,<100
+The Castro,$301-$400,<100
+SoMa,$301-$400,<100
+SoMa,$301-$400,<100
+SoMa,$301-$400,<100
+Mission District,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Mission District,$201-$300,<100
+Pacific Heights,$201-$300,<100
+SoMa,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Richmond District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+The Castro,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Downtown,$201-$300,<100
+Nob Hill,$201-$300,<100
+The Castro,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Tenderloin,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Downtown,$100-$200,<100
+The Castro,$100-$200,<100
+Tenderloin,$100-$200,<100
+The Castro,$100-$200,<100
+Outer Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Tenderloin,$100-$200,<100
+Inner Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Potrero Hill,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+The Castro,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+SoMa,<$100,<100
+Tenderloin,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Bernal Heights,<$100,<100
+Bernal Heights,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,>$500,<100
+Mission District,>$500,<100
+Noe Valley,>$500,<100
+SoMa,$401-$500,<100
+Marina,$401-$500,<100
+Pacific Heights,$301-$400,<100
+Marina,$301-$400,<100
+Richmond District,$301-$400,<100
+Noe Valley,$201-$300,<100
+The Castro,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Marina,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Inner Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,<$100,<100
+Potrero Hill,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Downtown,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Marina,>$500,<100
+Nob Hill,>$500,<100
+SoMa,>$500,<100
+The Castro,$301-$400,<100
+Richmond District,$301-$400,<100
+Inner Sunset,$201-$300,<100
+The Castro,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Noe Valley,<$100,<100
+Tenderloin,<$100,<100
+Tenderloin,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Pacific Heights,<$100,<100
+Nob Hill,<$100,<100
+Tenderloin,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Bernal Heights,<$100,<100
+Richmond District,>$500,<100
+Noe Valley,$401-$500,<100
+The Castro,$401-$500,<100
+Mission District,$401-$500,<100
+Pacific Heights,$301-$400,<100
+SoMa,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Richmond District,$301-$400,<100
+Richmond District,$301-$400,<100
+Mission District,$301-$400,<100
+The Castro,$301-$400,<100
+Potrero Hill,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Marina,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Richmond District,$201-$300,<100
+The Castro,$201-$300,<100
+Richmond District,$201-$300,<100
+SoMa,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Nob Hill,$201-$300,<100
+SoMa,$201-$300,<100
+Outer Sunset,$201-$300,<100
+The Castro,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Haight-Ashbury,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Marina,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Noe Valley,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Tenderloin,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Richmond District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+Tenderloin,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Tenderloin,<$100,<100
+Richmond District,<$100,<100
+Richmond District,>$500,<100
+SoMa,>$500,<100
+SoMa,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Richmond District,$301-$400,<100
+Noe Valley,$301-$400,<100
+The Castro,$301-$400,<100
+Noe Valley,$301-$400,<100
+Downtown,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Nob Hill,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Marina,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Noe Valley,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Downtown,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Marina,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Tenderloin,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Noe Valley,<$100,<100
+Downtown,<$100,<100
+Bernal Heights,<$100,<100
+Bernal Heights,<$100,<100
+Nob Hill,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Downtown,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Potrero Hill,>$500,<100
+Marina,$401-$500,<100
+The Castro,$401-$500,<100
+Mission District,$301-$400,<100
+Pacific Heights,$301-$400,<100
+The Castro,$301-$400,<100
+Inner Sunset,$301-$400,<100
+Downtown,$301-$400,<100
+Noe Valley,$201-$300,<100
+Marina,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Nob Hill,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Pacific Heights,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,<$100,<100
+Downtown,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+The Castro,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,<$100,<100
+SoMa,<$100,<100
+Noe Valley,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Richmond District,$401-$500,<100
+Mission District,$401-$500,<100
+Downtown,$301-$400,<100
+SoMa,$301-$400,<100
+Richmond District,$301-$400,<100
+The Castro,$301-$400,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Marina,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Richmond District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Downtown,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Marina,$100-$200,<100
+Marina,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Pacific Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Marina,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Tenderloin,$100-$200,<100
+Nob Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Tenderloin,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,<$100,<100
+Marina,<$100,<100
+Downtown,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Potrero Hill,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,>$500,<100
+Noe Valley,$401-$500,<100
+SoMa,$301-$400,<100
+Noe Valley,$301-$400,<100
+Nob Hill,$301-$400,<100
+Marina,$301-$400,<100
+Mission District,$301-$400,<100
+The Castro,$301-$400,<100
+Richmond District,$301-$400,<100
+Nob Hill,$201-$300,<100
+Marina,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Marina,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,<$100,<100
+Pacific Heights,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+SoMa,<$100,<100
+Richmond District,$401-$500,<100
+Mission District,$301-$400,<100
+Noe Valley,$301-$400,<100
+Richmond District,$301-$400,<100
+Outer Sunset,$301-$400,<100
+The Castro,$201-$300,<100
+Marina,$201-$300,<100
+Mission District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,<$100,<100
+The Castro,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Nob Hill,<$100,<100
+Bernal Heights,<$100,<100
+Richmond District,<$100,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,>$500,<100
+Tenderloin,$301-$400,<100
+Noe Valley,$301-$400,<100
+Bernal Heights,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Richmond District,$301-$400,<100
+Potrero Hill,$201-$300,<100
+The Castro,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Marina,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,<$100,<100
+Pacific Heights,>$500,<100
+Mission District,$401-$500,<100
+Mission District,$301-$400,<100
+Mission District,$301-$400,<100
+Noe Valley,$301-$400,<100
+Potrero Hill,$201-$300,<100
+Mission District,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+SoMa,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Potrero Hill,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Bernal Heights,<$100,<100
+Downtown,<$100,<100
+Mission District,$401-$500,<100
+Mission District,$401-$500,<100
+SoMa,$301-$400,<100
+Mission District,$301-$400,<100
+Pacific Heights,$301-$400,<100
+SoMa,$301-$400,<100
+Mission District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+SoMa,$201-$300,<100
+Tenderloin,$201-$300,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Downtown,<$100,<100
+Haight-Ashbury,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Potrero Hill,$401-$500,<100
+The Castro,$301-$400,<100
+Mission District,$301-$400,<100
+Marina,$201-$300,<100
+Noe Valley,$201-$300,<100
+The Castro,$201-$300,<100
+Outer Sunset,$201-$300,<100
+SoMa,$201-$300,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,<$100,<100
+SoMa,<$100,<100
+Tenderloin,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Potrero Hill,>$500,<100
+Mission District,>$500,<100
+Bernal Heights,$301-$400,<100
+Nob Hill,$301-$400,<100
+Potrero Hill,$301-$400,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Richmond District,$201-$300,<100
+Richmond District,$201-$300,<100
+Nob Hill,$201-$300,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Inner Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,<$100,<100
+Downtown,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+The Castro,>$500,<100
+Pacific Heights,$301-$400,<100
+The Castro,$201-$300,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Downtown,<$100,<100
+Haight-Ashbury,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Outer Sunset,<$100,<100
+Haight-Ashbury,>$500,<100
+Noe Valley,$401-$500,<100
+SoMa,$301-$400,<100
+Mission District,$301-$400,<100
+SoMa,$301-$400,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+Downtown,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Nob Hill,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Inner Sunset,<$100,<100
+Bernal Heights,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+The Castro,>$500,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+Pacific Heights,$201-$300,<100
+The Castro,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Nob Hill,<$100,<100
+Nob Hill,<$100,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+The Castro,>$500,<100
+Mission District,$401-$500,<100
+The Castro,$401-$500,<100
+The Castro,$301-$400,<100
+Bernal Heights,$201-$300,<100
+Noe Valley,$201-$300,<100
+Marina,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Noe Valley,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+The Castro,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Inner Sunset,<$100,<100
+Noe Valley,<$100,<100
+Outer Sunset,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Haight-Ashbury,$301-$400,<100
+Mission District,$301-$400,<100
+Mission District,$201-$300,<100
+Mission District,$201-$300,<100
+Inner Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+Marina,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,<$100,<100
+SoMa,<$100,<100
+Pacific Heights,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Noe Valley,<$100,<100
+Downtown,<$100,<100
+Haight-Ashbury,>$500,<100
+SoMa,$401-$500,<100
+SoMa,$301-$400,<100
+Mission District,$301-$400,<100
+The Castro,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Marina,$201-$300,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Downtown,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Mission District,>$500,<100
+Bernal Heights,$401-$500,<100
+Outer Sunset,$401-$500,<100
+SoMa,$401-$500,<100
+Outer Sunset,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+SoMa,$301-$400,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+Marina,$201-$300,<100
+The Castro,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Inner Sunset,<$100,<100
+The Castro,$301-$400,<100
+Noe Valley,$201-$300,<100
+Richmond District,$201-$300,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+Mission District,>$500,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$201-$300,<100
+SoMa,$201-$300,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Downtown,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+Pacific Heights,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Nob Hill,>$500,<100
+Noe Valley,$301-$400,<100
+The Castro,$301-$400,<100
+Inner Sunset,$201-$300,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Nob Hill,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Noe Valley,<$100,<100
+Mission District,>$500,<100
+Pacific Heights,>$500,<100
+SoMa,$401-$500,<100
+Noe Valley,$301-$400,<100
+Potrero Hill,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,<$100,<100
+Richmond District,<$100,<100
+The Castro,<$100,<100
+Tenderloin,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+SoMa,>$500,<100
+Haight-Ashbury,$401-$500,<100
+Mission District,$301-$400,<100
+Marina,$301-$400,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+Marina,$401-$500,<100
+Haight-Ashbury,$301-$400,<100
+Richmond District,$301-$400,<100
+Potrero Hill,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,<$100,<100
+Tenderloin,<$100,<100
+SoMa,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+The Castro,>$500,<100
+The Castro,$401-$500,<100
+Inner Sunset,$301-$400,<100
+The Castro,$301-$400,<100
+SoMa,$301-$400,<100
+Noe Valley,$201-$300,<100
+Richmond District,$201-$300,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+The Castro,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+SoMa,>$500,<100
+Pacific Heights,>$500,<100
+Outer Sunset,$401-$500,<100
+Inner Sunset,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Haight-Ashbury,$201-$300,<100
+Noe Valley,$201-$300,<100
+The Castro,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Potrero Hill,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Mission District,$100-$200,<100
+Downtown,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Haight-Ashbury,$401-$500,<100
+Marina,$301-$400,<100
+The Castro,$201-$300,<100
+SoMa,$201-$300,<100
+Potrero Hill,$201-$300,<100
+The Castro,$201-$300,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Downtown,<$100,<100
+Mission District,$401-$500,<100
+Pacific Heights,$301-$400,<100
+Pacific Heights,$301-$400,<100
+Haight-Ashbury,$201-$300,<100
+Noe Valley,$201-$300,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Nob Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,<$100,<100
+Mission District,$401-$500,<100
+Bernal Heights,$301-$400,<100
+Nob Hill,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Noe Valley,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+SoMa,>$500,<100
+The Castro,>$500,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Nob Hill,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+Nob Hill,$100-$200,<100
+Downtown,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Noe Valley,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Richmond District,<$100,<100
+SoMa,$301-$400,<100
+The Castro,$201-$300,<100
+Marina,$201-$300,<100
+Mission District,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,<$100,<100
+SoMa,<$100,<100
+Potrero Hill,<$100,<100
+Bernal Heights,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Haight-Ashbury,$301-$400,<100
+Marina,$201-$300,<100
+Potrero Hill,$201-$300,<100
+The Castro,$201-$300,<100
+SoMa,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$100-$200,<100
+Noe Valley,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,$201-$300,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,<$100,<100
+Downtown,<$100,<100
+Outer Sunset,<$100,<100
+Outer Sunset,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Pacific Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Downtown,<$100,<100
+Noe Valley,<$100,<100
+Marina,$301-$400,<100
+Mission District,$201-$300,<100
+Tenderloin,$201-$300,<100
+The Castro,$201-$300,<100
+Pacific Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+The Castro,<$100,<100
+SoMa,<$100,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Inner Sunset,>$500,<100
+Mission District,$401-$500,<100
+Pacific Heights,$301-$400,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Inner Sunset,<$100,<100
+Noe Valley,$201-$300,<100
+Marina,$201-$300,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,$301-$400,<100
+Mission District,$201-$300,<100
+Richmond District,$201-$300,<100
+Noe Valley,$201-$300,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,<$100,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Richmond District,$201-$300,<100
+Richmond District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Marina,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Mission District,<$100,<100
+Inner Sunset,<$100,<100
+Mission District,>$500,<100
+The Castro,$401-$500,<100
+Bernal Heights,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+SoMa,$201-$300,<100
+Mission District,$201-$300,<100
+SoMa,$201-$300,<100
+Marina,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Noe Valley,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Pacific Heights,$301-$400,<100
+Marina,$301-$400,<100
+Marina,$301-$400,<100
+Haight-Ashbury,$301-$400,<100
+Potrero Hill,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Outer Sunset,<$100,<100
+Richmond District,<$100,<100
+Noe Valley,$401-$500,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+SoMa,<$100,<100
+Inner Sunset,<$100,<100
+The Castro,>$500,<100
+Haight-Ashbury,$401-$500,<100
+Pacific Heights,$401-$500,<100
+Outer Sunset,$201-$300,<100
+Marina,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Pacific Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Noe Valley,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,<$100,<100
+Noe Valley,>$500,<100
+Pacific Heights,$301-$400,<100
+Noe Valley,$201-$300,<100
+Mission District,$100-$200,<100
+Marina,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,<$100,<100
+Tenderloin,<$100,<100
+Mission District,$201-$300,<100
+Bernal Heights,$201-$300,<100
+Noe Valley,$100-$200,<100
+Downtown,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Mission District,<$100,<100
+Richmond District,<$100,<100
+Bernal Heights,$301-$400,<100
+Mission District,$201-$300,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,<$100,<100
+Potrero Hill,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Inner Sunset,<$100,<100
+Noe Valley,$401-$500,<100
+Haight-Ashbury,$301-$400,<100
+Richmond District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Richmond District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Outer Sunset,<$100,<100
+Pacific Heights,<$100,<100
+Downtown,<$100,<100
+Outer Sunset,<$100,<100
+Inner Sunset,<$100,<100
+Bernal Heights,<$100,<100
+Downtown,$401-$500,<100
+SoMa,$301-$400,<100
+Mission District,$201-$300,<100
+The Castro,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Haight-Ashbury,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Richmond District,$201-$300,<100
+Potrero Hill,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,<$100,<100
+Bernal Heights,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,$401-$500,<100
+Nob Hill,$100-$200,<100
+Marina,$100-$200,<100
+Pacific Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Mission District,>$500,<100
+SoMa,$201-$300,<100
+Nob Hill,$201-$300,<100
+The Castro,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Marina,$301-$400,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Tenderloin,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+SoMa,$100-$200,<100
+Richmond District,<$100,<100
+Mission District,<$100,<100
+Noe Valley,>$500,<100
+Nob Hill,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Nob Hill,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,<$100,<100
+Haight-Ashbury,>$500,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,<$100,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+Mission District,<$100,<100
+The Castro,$201-$300,<100
+SoMa,$201-$300,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Richmond District,$100-$200,<100
+Potrero Hill,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Downtown,$401-$500,<100
+SoMa,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+Bernal Heights,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,$201-$300,<100
+Potrero Hill,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Nob Hill,$100-$200,<100
+Noe Valley,<$100,<100
+Haight-Ashbury,>$500,<100
+Pacific Heights,$201-$300,<100
+Noe Valley,$201-$300,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Haight-Ashbury,<$100,<100
+Outer Sunset,<$100,<100
+Downtown,<$100,<100
+The Castro,<$100,<100
+Mission District,<$100,<100
+Haight-Ashbury,$201-$300,<100
+SoMa,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Mission District,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Haight-Ashbury,<$100,<100
+Mission District,<$100,<100
+Marina,$201-$300,<100
+Richmond District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Mission District,<$100,<100
+Bernal Heights,<$100,<100
+The Castro,<$100,<100
+The Castro,<$100,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+Inner Sunset,$100-$200,<100
+SoMa,$100-$200,<100
+Haight-Ashbury,<$100,<100
+Haight-Ashbury,$201-$300,<100
+Mission District,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Pacific Heights,$100-$200,<100
+Haight-Ashbury,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Richmond District,<$100,<100
+Outer Sunset,$201-$300,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+SoMa,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Downtown,$100-$200,<100
+Noe Valley,<$100,<100
+Outer Sunset,<$100,<100
+Mission District,<$100,<100
+Richmond District,$100-$200,<100
+Nob Hill,$100-$200,<100
+Inner Sunset,<$100,<100
+SoMa,>$500,<100
+Mission District,$401-$500,<100
+Outer Sunset,$201-$300,<100
+Richmond District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+The Castro,$100-$200,<100
+SoMa,$301-$400,<100
+Mission District,$201-$300,<100
+Nob Hill,$201-$300,<100
+The Castro,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Mission District,$100-$200,<100
+Potrero Hill,$201-$300,<100
+Pacific Heights,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,<$100,<100
+Downtown,$201-$300,<100
+Haight-Ashbury,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Potrero Hill,$100-$200,<100
+Inner Sunset,$100-$200,<100
+Richmond District,<$100,<100
+Outer Sunset,<$100,<100
+Haight-Ashbury,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Tenderloin,<$100,<100
+Bernal Heights,<$100,<100
+Richmond District,<$100,<100
+Richmond District,$100-$200,<100
+Downtown,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Noe Valley,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$401-$500,<100
+SoMa,$100-$200,<100
+Mission District,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Noe Valley,$100-$200,<100
+Marina,$100-$200,<100
+The Castro,$100-$200,<100
+Richmond District,$100-$200,<100
+Tenderloin,<$100,<100
+Downtown,<$100,<100
+SoMa,<$100,<100
+Richmond District,<$100,<100
+Haight-Ashbury,$201-$300,<100
+Outer Sunset,$201-$300,<100
+The Castro,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Nob Hill,$100-$200,<100
+Mission District,<$100,<100
+Mission District,$301-$400,<100
+Marina,$301-$400,<100
+Mission District,$201-$300,<100
+Richmond District,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,<$100,<100
+SoMa,$301-$400,<100
+Mission District,$100-$200,<100
+Outer Sunset,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,<$100,<100
+Bernal Heights,<$100,<100
+Inner Sunset,<$100,<100
+SoMa,$100-$200,<100
+SoMa,$100-$200,<100
+Downtown,$301-$400,<100
+Downtown,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Outer Sunset,<$100,<100
+Mission District,$301-$400,<100
+Mission District,$201-$300,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$201-$300,<100
+Haight-Ashbury,$100-$200,<100
+Haight-Ashbury,<$100,<100
+SoMa,$201-$300,<100
+Bernal Heights,$100-$200,<100
+Haight-Ashbury,<$100,<100
+Outer Sunset,<$100,<100
+Bernal Heights,$301-$400,<100
+Noe Valley,$100-$200,<100
+Bernal Heights,$100-$200,<100
+Mission District,$100-$200,<100
+Haight-Ashbury,$100-$200,<100
+Tenderloin,<$100,<100
+Mission District,<$100,<100
+Inner Sunset,<$100,<100
+The Castro,$100-$200,<100
+Potrero Hill,$100-$200,<100
+The Castro,$100-$200,<100
+The Castro,$201-$300,<100
+Mission District,$201-$300,<100
+Outer Sunset,$100-$200,<100
+Outer Sunset,$100-$200,<100
+Richmond District,$100-$200,<100
+Mission District,$100-$200,<100
+Mission District,$100-$200,<100
+Richmond District,$100-$200,<100
+Marina,$100-$200,100-200
+Noe Valley,$100-$200,100-200
+Haight-Ashbury,$100-$200,100-200
+Mission District,$100-$200,100-200
+Haight-Ashbury,$100-$200,100-200
+Mission District,$100-$200,100-200
+Mission District,$100-$200,100-200
+Noe Valley,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Bernal Heights,<$100,100-200
+The Castro,$301-$400,100-200
+SoMa,$301-$400,100-200
+The Castro,$201-$300,100-200
+The Castro,$100-$200,100-200
+Potrero Hill,$100-$200,100-200
+Mission District,$100-$200,100-200
+The Castro,$100-$200,100-200
+Outer Sunset,<$100,100-200
+Bernal Heights,<$100,100-200
+Noe Valley,<$100,100-200
+Inner Sunset,<$100,100-200
+Noe Valley,$201-$300,100-200
+Potrero Hill,$100-$200,100-200
+Outer Sunset,$100-$200,100-200
+The Castro,<$100,100-200
+The Castro,$100-$200,100-200
+SoMa,$100-$200,100-200
+Mission District,$100-$200,100-200
+The Castro,$100-$200,100-200
+Outer Sunset,<$100,100-200
+Mission District,<$100,100-200
+Haight-Ashbury,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Marina,$100-$200,100-200
+Haight-Ashbury,$100-$200,100-200
+Outer Sunset,$100-$200,100-200
+Noe Valley,$100-$200,100-200
+Potrero Hill,$100-$200,100-200
+The Castro,$100-$200,100-200
+Outer Sunset,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Mission District,$100-$200,100-200
+Richmond District,<$100,100-200
+Bernal Heights,$201-$300,100-200
+Nob Hill,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Mission District,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Noe Valley,$201-$300,100-200
+Tenderloin,<$100,100-200
+Tenderloin,<$100,100-200
+Richmond District,$100-$200,100-200
+The Castro,$100-$200,100-200
+Mission District,<$100,100-200
+Richmond District,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+The Castro,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Bernal Heights,<$100,100-200
+Nob Hill,$201-$300,100-200
+Marina,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Outer Sunset,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Potrero Hill,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Noe Valley,<$100,100-200
+Haight-Ashbury,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Inner Sunset,<$100,100-200
+Tenderloin,<$100,100-200
+Noe Valley,<$100,100-200
+Inner Sunset,$301-$400,100-200
+Potrero Hill,$201-$300,100-200
+Downtown,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Tenderloin,<$100,100-200
+Nob Hill,<$100,100-200
+Noe Valley,$100-$200,100-200
+Mission District,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Noe Valley,$100-$200,100-200
+Mission District,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+Nob Hill,<$100,100-200
+Haight-Ashbury,$100-$200,100-200
+SoMa,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+Inner Sunset,$100-$200,100-200
+Mission District,<$100,100-200
+Potrero Hill,<$100,100-200
+Outer Sunset,$100-$200,100-200
+Richmond District,<$100,100-200
+Mission District,$100-$200,100-200
+Outer Sunset,$100-$200,100-200
+Mission District,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+Noe Valley,$100-$200,100-200
+Mission District,<$100,100-200
+Mission District,$201-$300,100-200
+The Castro,$100-$200,100-200
+The Castro,$100-$200,100-200
+Downtown,$100-$200,100-200
+Pacific Heights,$100-$200,100-200
+Haight-Ashbury,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+Mission District,<$100,100-200
+Mission District,$201-$300,100-200
+Mission District,$100-$200,100-200
+The Castro,<$100,100-200
+SoMa,$100-$200,100-200
+Mission District,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Mission District,$100-$200,100-200
+Potrero Hill,<$100,100-200
+The Castro,<$100,100-200
+Inner Sunset,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+Pacific Heights,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+The Castro,$100-$200,100-200
+The Castro,$100-$200,100-200
+Richmond District,$100-$200,100-200
+Outer Sunset,<$100,100-200
+Haight-Ashbury,$100-$200,100-200
+Noe Valley,$100-$200,100-200
+The Castro,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Mission District,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+The Castro,$201-$300,100-200
+Pacific Heights,$100-$200,100-200
+Richmond District,$100-$200,100-200
+The Castro,$100-$200,100-200
+Mission District,$301-$400,100-200
+The Castro,$100-$200,100-200
+Downtown,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+The Castro,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+Marina,$100-$200,100-200
+Mission District,$100-$200,100-200
+Potrero Hill,$100-$200,100-200
+Richmond District,<$100,100-200
+Mission District,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Inner Sunset,<$100,100-200
+Pacific Heights,$100-$200,100-200
+Inner Sunset,<$100,100-200
+Noe Valley,$100-$200,100-200
+Mission District,$100-$200,100-200
+SoMa,$100-$200,100-200
+Marina,$100-$200,100-200
+Bernal Heights,$100-$200,100-200
+The Castro,$100-$200,100-200
+Haight-Ashbury,<$100,100-200
+SoMa,$201-$300,100-200
+SoMa,$100-$200,100-200
+Inner Sunset,<$100,100-200
+Outer Sunset,$100-$200,100-200
+Mission District,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Mission District,$100-$200,100-200
+Noe Valley,<$100,100-200
+Potrero Hill,$100-$200,100-200
+Noe Valley,$100-$200,100-200
+Bernal Heights,<$100,100-200
+Mission District,$100-$200,100-200
+SoMa,$100-$200,100-200
+Outer Sunset,<$100,100-200
+Haight-Ashbury,$201-$300,100-200
+Mission District,$100-$200,100-200
+SoMa,<$100,100-200
+Mission District,<$100,100-200
+Mission District,$100-$200,100-200
+The Castro,$100-$200,100-200
+Haight-Ashbury,$100-$200,100-200
+Potrero Hill,$100-$200,100-200
+Inner Sunset,$100-$200,100-200
+Potrero Hill,$100-$200,100-200
+SoMa,<$100,100-200
+Outer Sunset,<$100,100-200
+Noe Valley,<$100,100-200
+Haight-Ashbury,<$100,100-200
+Haight-Ashbury,$100-$200,100-200
+SoMa,<$100,100-200
+Outer Sunset,$100-$200,100-200
+Haight-Ashbury,$100-$200,100-200
+Potrero Hill,<$100,100-200
+Outer Sunset,$100-$200,100-200
+The Castro,<$100,100-200
+Mission District,$100-$200,100-200
+The Castro,<$100,100-200
+Bernal Heights,$100-$200,100-200
+Bernal Heights,<$100,201-300
+The Castro,$100-$200,201-300
+Bernal Heights,$100-$200,201-300
+Haight-Ashbury,<$100,201-300
+Richmond District,$100-$200,201-300
+Haight-Ashbury,<$100,201-300
+Downtown,$100-$200,201-300
+Inner Sunset,<$100,201-300
+Richmond District,<$100,201-300
+Potrero Hill,$100-$200,201-300
+The Castro,$100-$200,201-300
+Mission District,$100-$200,201-300
+Marina,$100-$200,201-300
+Mission District,$201-$300,201-300
+The Castro,$100-$200,201-300
+Mission District,<$100,201-300
+Richmond District,$100-$200,201-300
+Noe Valley,$100-$200,201-300
+Outer Sunset,$100-$200,201-300
+Mission District,<$100,201-300
+The Castro,$100-$200,201-300
+Mission District,$100-$200,201-300
+Inner Sunset,$100-$200,201-300
+Potrero Hill,<$100,201-300
+Nob Hill,$100-$200,201-300
+Mission District,<$100,201-300
+Potrero Hill,$100-$200,201-300
+Mission District,$100-$200,201-300
+Potrero Hill,$100-$200,201-300
+Richmond District,$100-$200,201-300
+Noe Valley,<$100,201-300
+Noe Valley,<$100,201-300
+Richmond District,<$100,201-300
+The Castro,<$100,201-300
+Haight-Ashbury,<$100,201-300
+Richmond District,<$100,>300
+Mission District,$100-$200,>300
+Mission District,$100-$200,>300
+The Castro,$100-$200,>300
+Potrero Hill,$100-$200,>300
+Mission District,$100-$200,>300
+Potrero Hill,$100-$200,>300
+Potrero Hill,$100-$200,>300

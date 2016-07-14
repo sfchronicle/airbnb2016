@@ -182,7 +182,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 
 	    function hasTextLeft(node) {
-	      return node.x < chart.features.width / 2;
+	      return node.x < 3*chart.features.width / 4;
 	    }
 
 	    function colorNodes(node) {
@@ -556,9 +556,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    function ascendingDepth(a, b) {
+				if (a.name == "over 100") {
+					return a.y-b.y;
+				}
 				if ((a.name[0] == "$") || (a.name[1] == "$")) {
-					if (b.name == ">$1000") {
-						return b.y-a.y;
+					if (a.name == ">$500") {
+						console.log("we are here");
+						return a.y-b.y;
 					} else if (a.name[1] > b.name[1]) {
 						return a.y-b.y;
 					} else {
@@ -800,7 +804,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 	function getConnections(o, direction) {
-		console.log("looking for connections");
 	  if (o.source && o.target) {
 	    return getConnectionsLink(o, direction);
 	  } else {
@@ -810,25 +813,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// Return the link and its connected nodes with their links etc.
 	function getConnectionsLink(o, direction) {
-		console.log("getting links");
 	  var links = [o];
 	  direction = direction || 'both';
+		// console.log(o);
 
 	  if (direction == 'source' || direction == 'both') {
-			console.log("links before");
 	    links = links.concat(getConnectionsNode(o.source, 'source'));
-			links.forEach(function(l){
-				console.log(l);
-				links.concat(getConnectionsNode(l.source,'source'));
-			});
-			console.log("links after");
-			console.log(links);
+			// console.log(o.source);
+			// links.forEach(function(link){
+			// 	console.log(link);
+			// 	links = links.concat(getConnectionsNode(link, 'source'));
+			// });
 	  }
 	  if (direction == 'target' || direction == 'both') {
 	    links = links.concat(getConnectionsNode(o.target, 'target'));
 	  }
-
-		console.log(links);
+		// console.log(links);
 	  return links;
 	}
 
@@ -837,7 +837,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	// is one target link (or none, in which case the node is an endnode); if
 	// direction is 'target' vice versa. Open the product example to see why.
 	function getConnectionsNode(o, direction) {
-		console.log("getting nodes");
 	  var links = [o];
 	  direction = direction || 'both';
 
@@ -848,6 +847,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    o.sourceLinks.forEach(function(p) { links = links.concat(getConnectionsLink(p, direction)); });
 	  }
 
+		console.log(links);
 	  return links;
 	}
 
