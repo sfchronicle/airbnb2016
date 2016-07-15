@@ -3,7 +3,7 @@ require("angular");
 var $ = require("jquery");
 var app = angular.module("search", []);
 var inside = require('point-in-polygon');
-      
+   
 var placeSearch, autocomplete;
 var latitude, longitude;
 
