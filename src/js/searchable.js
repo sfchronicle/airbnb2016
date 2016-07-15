@@ -7,10 +7,15 @@ var placeSearch, autocomplete;
 var latitude, longitude;
 
 function initAutocomplete() {
+	var defaultBounds = new google.maps.LatLngBounds(
+	  new google.maps.LatLng(37.707552,-122.516098),
+	  new google.maps.LatLng(37.8327,-122.358856));
+
 	autocomplete = new google.maps.places.Autocomplete(
 	    (document.getElementById('autocomplete')),
 	      {
-	        types: ['geocode']
+	        bounds: defaultBounds,
+	        componentRestrictions: {country: 'us'}
 	      }
 	    );
 
@@ -28,13 +33,13 @@ function initAutocomplete() {
 
 			  for (var h = 0; h < neighborhoodData.features[i].geometry.coordinates[0].length; h++)
 
+			  // move some of these variables into the if/else statement
+
 			  var polygon = neighborhoodData.features[i].geometry.coordinates[0];
 			  var district = neighborhoodData.features[i].properties.name;
 			  var userinput = [longitude, latitude];
 			  var yourneighborhood = "";
 			  var aboutyourarea = document.getElementById('aboutyourarea');
-
-			  console.log(district);
 
 			  if (inside(userinput, polygon) == true) {
 			  	aboutyourarea.innerHTML = '';

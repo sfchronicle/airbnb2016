@@ -206,10 +206,11 @@ input {
   @media @tablet {
     font-size: 10px;
   }
-}
 
-input:focus {
-  outline: none;
+  @media @mobile {
+    width: 90%;
+  }
+
 }
 
 td {
@@ -249,12 +250,21 @@ tr {
   margin: 0 auto;
   margin-bottom: 20px;
   font-size: 15px;
+
+  @media @mobile {
+    width: 90%;
+    font-size: 13px;
+  }
 }
 
 #aboutyourarea {
   text-align: center;
   width: 100%;
   margin: 15px 0;
+}
+
+.bold-text {
+  font-family: @med-graphics;
 }
 
 #addresssearch, #neighborsearch {
