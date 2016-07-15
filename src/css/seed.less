@@ -164,7 +164,7 @@ body {
 
 #searchable {
   width: 100%;
-  max-width: 750px;
+  max-width: 650px;
   margin: 0 auto;
   font-family: @block-graphics;
 }
@@ -197,14 +197,14 @@ input {
   margin: 0 auto;
   margin-bottom: 20px;
   width: 80%;
-  font-size: 13px;
+  font-size: 15px;
   padding: 3px;
   border: 0px;
   border-bottom: 1px solid rgb(238,238,238);
   font-family: @block-graphics;
 
   @media @tablet {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   @media @mobile {
@@ -248,7 +248,7 @@ tr {
   width: 80%; 
   text-align: left;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-size: 15px;
 
   @media @mobile {
@@ -261,6 +261,26 @@ tr {
   text-align: center;
   width: 100%;
   margin: 15px 0;
+  font-size: 15px;
+
+  @media @mobile {
+    font-size: 14px;
+  }
+
+  p {
+    width: 80%;
+    margin: 15px auto 30px auto;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    background: @gray-blue;
+    color: white;
+
+    @media @mobile {
+      font-size: 13px;
+      width: 95%;
+    }
+  }
 }
 
 .bold-text {
@@ -268,5 +288,5 @@ tr {
 }
 
 #addresssearch, #neighborsearch {
-//  display: none;
+  display: none;
 }

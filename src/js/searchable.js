@@ -1,5 +1,6 @@
 require("component-responsive-frame/child");
 require("angular");
+var $ = require("jquery");
 var app = angular.module("search", []);
 var inside = require('point-in-polygon');
       
@@ -44,13 +45,13 @@ function initAutocomplete() {
 			  if (inside(userinput, polygon) == true) {
 			  	aboutyourarea.innerHTML = '';
 			    yourneighborhood = district;
-			    aboutyourarea.insertAdjacentHTML('afterbegin','<p>You live in <span style="font-family: AntennaMedium">' + yourneighborhood + "</span>.</p>");
+			    aboutyourarea.insertAdjacentHTML('afterbegin','You live in <span style="font-family: AntennaMedium">' + yourneighborhood + "</span>.");
 
 			    if ((yourneighborhood == "Outer Mission") || (yourneighborhood == "West of Twin Peaks")) {
-			    	aboutyourarea.insertAdjacentHTML("beforeend","Data for your neighborhood is not available.");
+			    	aboutyourarea.insertAdjacentHTML("beforeend","<p>Data for your neighborhood is not available.</p>");
 			    }
 			    else {
-			    	aboutyourarea.insertAdjacentHTML("beforeend","In " + yourneighborhood + ", there were a total of __ Airbnb listings.");
+			    	aboutyourarea.insertAdjacentHTML("beforeend","<p>" + yourneighborhood + " had a total of ___ listings.</p>");
 			    }
 			    break;
 			  }
@@ -69,6 +70,28 @@ function initAutocomplete() {
 }
 
 initAutocomplete();
+
+$( "#addressbutton" ).click(function() {
+  $( "#addresssearch" ).slideToggle(300);
+
+  if ($('#top').hasClass('fa-caret-right')) {
+  	$('#top').removeClass('fa-caret-right').addClass('fa-caret-down');
+  }
+  else {
+  	$('#top').removeClass('fa-caret-down').addClass('fa-caret-right');
+  }
+});
+
+$( "#neighborbutton" ).click(function() {
+  $( "#neighborsearch" ).slideToggle(300);
+
+  if ($('#bottom').hasClass('fa-caret-right')) {
+  	$('#bottom').removeClass('fa-caret-right').addClass('fa-caret-down');
+  }
+  else {
+  	$('#bottom').removeClass('fa-caret-down').addClass('fa-caret-right');
+  }
+});
 
 app.controller("SearchController", ["$scope", function($scope) {
 

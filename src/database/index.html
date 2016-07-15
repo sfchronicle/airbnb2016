@@ -17,9 +17,9 @@
 
     <responsive-child id="searchable">
       <div class="hed">Airbnb in your neighborhood</div>
-      <div class="chatter">Curious to see how prevalent Airbnb is in your neighborhood? Search for your neighborhood directly or enter your address to see how large of a presence the company has in your area.</div>
+      <div class="chatter">Curious to see how prevalent Airbnb is near where you live? Search for a district directly or enter your address to see how large of a presence the company has in your area.</div>
 
-      <div class="searchbutton" id="addressbutton"><i class="fa fa-caret-right" aria-hidden="true"></i>  Search by address</div>
+      <div class="searchbutton" id="addressbutton"><i id="top" class="fa fa-caret-right" aria-hidden="true"></i>  Search by address</div>
 
       <div id="addresssearch">
         <input id="autocomplete" placeholder="&#xf002;  Enter your address" type="text" style="font-family:AntennaExtraLight, FontAwesome"></input>
@@ -28,7 +28,7 @@
       </div>
 
 
-      <div class="searchbutton" id="neighborbutton"><i class="fa fa-caret-right" aria-hidden="true"></i>  Search by neighborhood</div>
+      <div class="searchbutton" id="neighborbutton"><i id="bottom" class="fa fa-caret-right" aria-hidden="true"></i>  Search by neighborhood</div>
 
         <div id="neighborsearch">
           <div ng-controller="SearchController" ng-app="search" ng-cloak>
