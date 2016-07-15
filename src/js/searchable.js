@@ -72,6 +72,11 @@ function initAutocomplete() {
 initAutocomplete();
 
 $( "#addressbutton" ).click(function() {
+  $("#neighborsearch").slideUp(300);
+  if ($('#bottom').hasClass('fa-caret-down')) {
+  	$('#bottom').removeClass('fa-caret-down').addClass('fa-caret-right');
+  }
+
   $( "#addresssearch" ).slideToggle(300);
 
   if ($('#top').hasClass('fa-caret-right')) {
@@ -83,6 +88,11 @@ $( "#addressbutton" ).click(function() {
 });
 
 $( "#neighborbutton" ).click(function() {
+  $("#addresssearch").slideUp(300);
+  if ($('#top').hasClass('fa-caret-down')) {
+  	$('#top').removeClass('fa-caret-down').addClass('fa-caret-right');
+  }
+
   $( "#neighborsearch" ).slideToggle(300);
 
   if ($('#bottom').hasClass('fa-caret-right')) {
