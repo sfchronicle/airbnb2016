@@ -173,9 +173,10 @@ table {
   width: 100%;
   margin: 0 auto;
   font-size: 13px;
+  table-layout: fixed;
 
   @media @tablet {
-    font-size: 10px;
+    font-size: 9.3px;
   }
 }
 
@@ -222,6 +223,10 @@ th {
   background: @gray-blue;
   padding: 5px;
   color: white;
+
+  @media @mobile {
+  padding: 5px 2px;
+  }
 
   a {
     color: white;
