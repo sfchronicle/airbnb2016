@@ -39,14 +39,13 @@ function initAutocomplete() {
 			  var polygon = neighborhoodData.features[i].geometry.coordinates[0];
 			  var neighbor = neighborhoodData.features[i].properties.name;
 			  var userinput = [longitude, latitude];
-			  var yourneighborhood = "";
 			  var aboutyourarea = document.getElementById('aboutyourarea');
 
 			  if (inside(userinput, polygon) == true) {
 			  	aboutyourarea.innerHTML = '';
 			    aboutyourarea.insertAdjacentHTML('afterbegin','You live in <span class="bold-text">' + neighbor + "</span>.");
 
-			    if ((yourneighborhood == "Outer Mission") || (neighbor == "West of Twin Peaks") || (neighbor == "Mission Bay") || (neighbor == "Seacliff")) {
+			    if ((neighbor == "Outer Mission") || (neighbor == "West of Twin Peaks") || (neighbor == "Mission Bay") || (neighbor == "Japantown") || (neighbor == "West Portal") || (neighbor == "Seacliff") || (neighbor == "Lakeshore") || (neighbor == "Treasure Island/YBI") || (neighbor == "Presidio") || (neighbor == "Golden Gate Park")) {
 			    	aboutyourarea.insertAdjacentHTML("beforeend","<p>Data for your neighborhood is not available.</p>");
 			    }
 			    else {
