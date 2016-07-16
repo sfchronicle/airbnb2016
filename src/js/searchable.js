@@ -37,21 +37,25 @@ function initAutocomplete() {
 			  // move some of these variables into the if/else statement
 
 			  var polygon = neighborhoodData.features[i].geometry.coordinates[0];
-			  var district = neighborhoodData.features[i].properties.name;
+			  var neighbor = neighborhoodData.features[i].properties.name;
 			  var userinput = [longitude, latitude];
 			  var yourneighborhood = "";
 			  var aboutyourarea = document.getElementById('aboutyourarea');
 
 			  if (inside(userinput, polygon) == true) {
 			  	aboutyourarea.innerHTML = '';
-			    yourneighborhood = district;
-			    aboutyourarea.insertAdjacentHTML('afterbegin','You live in <span style="font-family: AntennaMedium">' + yourneighborhood + "</span>.");
+			    aboutyourarea.insertAdjacentHTML('afterbegin','You live in <span class="bold-text">' + neighbor + "</span>.");
 
-			    if ((yourneighborhood == "Outer Mission") || (yourneighborhood == "West of Twin Peaks")) {
+			    if ((yourneighborhood == "Outer Mission") || (neighbor == "West of Twin Peaks") || (neighbor == "Mission Bay") || (neighbor == "Seacliff")) {
 			    	aboutyourarea.insertAdjacentHTML("beforeend","<p>Data for your neighborhood is not available.</p>");
 			    }
 			    else {
-			    	aboutyourarea.insertAdjacentHTML("beforeend","<p>" + yourneighborhood + " had a total of ___ listings.</p>");
+			    	for (var j = 0; j < databaseData.length; j++) {
+			    		if (databaseData[j].neighborhood == neighbor) {
+					    	aboutyourarea.insertAdjacentHTML("beforeend","<p><i class='fa fa-home' aria-hidden='true'></i>  <span class='bold-text'>" + neighbor + "</span> had a total of <span class='bold-text'>" + databaseData[j].listings + "</span> Airbnb listings.<br><br><span class='bold-text'>" + databaseData[j].property_1 + "</span> were entire home/apartment listings at <span class='bold-text'>" + databaseData[j].price_1 + "</span> per night,<br><span class='bold-text'>" + databaseData[j].property_2 + "</span> were private room listings at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night, and<br><span class='bold-text'>" + databaseData[j].property_3 + "</span> were shared room listings at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.<br></p>");
+					    	break;
+			    		}
+			    	}
 			    }
 			    break;
 			  }

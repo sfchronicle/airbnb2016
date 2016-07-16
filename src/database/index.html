@@ -16,8 +16,8 @@
   <body>
 
     <responsive-child id="searchable">
-      <div class="hed">Airbnb in your area</div>
-      <div class="chatter">Curious to see how prevalent Airbnb is near where you live? Search for a district directly or enter your address to see how large of a presence the company has in your area.</div>
+      <div class="hed">Where the Airbnbs are</div>
+      <div class="chatter">Select a neighborhood or type in an address to see how many Airbnb units there are in your neck of the woods, how many are homes, rooms and shared rooms, and what they cost per night.</div>
 
       <div class="searchbutton" id="addressbutton"><i id="top" class="fa fa-caret-right" aria-hidden="true"></i>  Search by address</div>
 
@@ -28,7 +28,7 @@
       </div>
 
 
-      <div class="searchbutton" id="neighborbutton"><i id="bottom" class="fa fa-caret-right" aria-hidden="true"></i>  Search by district</div>
+      <div class="searchbutton" id="neighborbutton"><i id="bottom" class="fa fa-caret-right" aria-hidden="true"></i>  Search by neighborhood</div>
 
         <div id="neighborsearch">
           <div ng-controller="SearchController" ng-app="search" ng-cloak>
@@ -38,7 +38,7 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan=1 rowspan=2><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">District<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up"></span></a>
+                    <th colspan=1 rowspan=2><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">Neighborhood<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up"></span></a>
                     <th colspan=1 rowspan=2><a href="javascript:void(0)" ng-click="sortType = 'listings'; sortReverse = !sortReverse">Total listings<span ng-show="sortType == 'listings' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'listings' && sortReverse" class="fa fa-caret-down"></span></a>
                     <th colspan=2>Entire home/apt listings
                     <th colspan=2>Private room listings
@@ -85,7 +85,7 @@
         </div>
 
       <div style="margin-top: 3px;" class="credit">Benjamin Din  &bull; <a href="mailto:benjamin.din@gmail.com">bdin@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/benjamindin" target="_blank">@benjamindin</a></div>
-      <div class="source"></div>
+      <div class="source">Source: Connotate, Chronicle research</div>
     </responsive-child>
 
     <script>
