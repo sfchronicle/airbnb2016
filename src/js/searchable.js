@@ -1,7 +1,7 @@
 require("component-responsive-frame/child");
 require("angular");
 var $ = require("jquery");
-var app = angular.module("search", [require('angular-fixed-table-header')]);
+var app = angular.module("search", []);
 var inside = require('point-in-polygon');
    
 var placeSearch, autocomplete;
