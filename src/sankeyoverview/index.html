@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <%= t.include("partials/_head.html") %>
   </head>
+  <script type="text/javascript" src="http://projects.sfchronicle.com/shared/js/pym.min.js"></script>
   <body>
 
     <responsive-child>
@@ -46,6 +47,7 @@
 
     <script>
       var AirbnbData = <%= JSON.stringify(csv.sankey_v4) %>;
+      var pymChild = new pym.Child({polling: 500});
     </script>
 
     <script src="../app.js" async></script>

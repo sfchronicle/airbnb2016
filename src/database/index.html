@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <script type="text/javascript" src="http://projects.sfchronicle.com/shared/js/pym.min.js"></script>
     <title><%= json.project.title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -91,6 +92,7 @@
     <script>
       var databaseData = <%= JSON.stringify(csv.database_data) %>;
       var neighborhoodData = <%= JSON.stringify(json.data) %>;
+      var pymChild = new pym.Child({polling: 500});
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places"></script>
