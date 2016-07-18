@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="//cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js"></script>
     <%= t.include("partials/_head.html") %>
     <style>
     [ng-cloak] {
@@ -48,20 +49,20 @@
                     <th colspan=4><a href="javascript:void(0)" ng-click="sortType = 'property_1'; sortReverse = !sortReverse">
                           #<span ng-show="sortType == 'property_1' && !sortReverse" class="fa fa-caret-up fa fa-caret-up"></span><span ng-show="sortType == 'property_1' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'price_1'; sortReverse = !sortReverse">
-                          Price<span ng-show="sortType == 'price_1' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'price_1' && sortReverse" class="fa fa-caret-down"></span>
+                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'order1'; sortReverse = !sortReverse">
+                          Price<span ng-show="sortType == 'order1' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'order1' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
                     <th colspan=4><a href="javascript:void(0)" ng-click="sortType = 'property_2'; sortReverse = !sortReverse">
                           #<span ng-show="sortType == 'property_2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'property_2' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'price_2'; sortReverse = !sortReverse">
-                          Price<span ng-show="sortType == 'price_2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'price_2' && sortReverse" class="fa fa-caret-down"></span>
+                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'order2'; sortReverse = !sortReverse">
+                          Price<span ng-show="sortType == 'order2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'order2' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
                     <th colspan=4><a href="javascript:void(0)" ng-click="sortType = 'property_3'; sortReverse = !sortReverse">
                           #<span ng-show="sortType == 'property_3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'property_3' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'price_3'; sortReverse = !sortReverse">
-                          Price<span ng-show="sortType == 'price_3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'price_3' && sortReverse" class="fa fa-caret-down"></span>
+                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'order3'; sortReverse = !sortReverse">
+                          Price<span ng-show="sortType == 'order3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'order3' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
                 </thead>
 
@@ -77,7 +78,7 @@
                     <td colspan=6>{{row.price_3}}
                   </tr>
                   <tr ng-show="results.length == 0">
-                    <td colspan=100 style="padding: 10px;"><em>No results found.</em>
+                    <td colspan=57 style="padding: 10px;"><em>No results found.</em>
               </table>
 
             </div>
