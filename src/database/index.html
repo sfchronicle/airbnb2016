@@ -16,7 +16,7 @@
     </style>
   </head>
   <body>
-
+    <div class="outer">
     <responsive-child id="searchable">
       <div class="hed">Where the Airbnbs are</div>
       <div class="chatter">Select a neighborhood or type in an address to see how many Airbnb units there are in your neck of the woods, how many are homes, rooms and shared rooms, and what they cost per night.</div>
@@ -91,7 +91,8 @@
         <div class="entry" style="padding-top: 5px">Source: Connotate, Chronicle research</div>
       </div>
     </responsive-child>
-
+  </div>
+  
     <script>
       var databaseData = <%= JSON.stringify(csv.database_data) %>;
       var neighborhoodData = <%= JSON.stringify(json.data) %>;
