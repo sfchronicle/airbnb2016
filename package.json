@@ -24,7 +24,6 @@
     "grunt": "^0.4.5",
     "grunt-contrib-connect": "^0.10.1",
     "grunt-contrib-watch": "^0.6.1",
-    "jquery": "^3.1.0",
     "less": "^2.0.0",
     "mime": "^1.2.11",
     "point-in-polygon": "^1.0.1",

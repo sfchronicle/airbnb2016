@@ -1,6 +1,5 @@
 require("component-responsive-frame/child");
 require("angular");
-var $ = require("jquery");
 var app = angular.module("search", []);
 var inside = require('point-in-polygon');
    
@@ -106,35 +105,58 @@ function initAutocomplete() {
 
 initAutocomplete();
 
-$( "#addressbutton" ).click(function() {
-  $("#neighborsearch").slideUp(300);
-  if ($('#bottom').hasClass('fa-caret-down')) {
-  	$('#bottom').removeClass('fa-caret-down').addClass('fa-caret-right');
-  }
+var abutton = document.getElementById("addressbutton");
+var nbutton = document.getElementById("neighborbutton");
+var asearch = document.getElementById("addresssearch");
+var nsearch = document.getElementById("neighborsearch");
+var bottom = document.getElementById("bottom");
+var top = document.getElementById("top");
 
-  $( "#addresssearch" ).slideToggle(300);
-
-  if ($('#top').hasClass('fa-caret-right')) {
-  	$('#top').removeClass('fa-caret-right').addClass('fa-caret-down');
+abutton.addEventListener("click", function() {
+  if (asearch.classList.contains('active')) {
+  	asearch.classList.remove('active');
   }
   else {
-  	$('#top').removeClass('fa-caret-down').addClass('fa-caret-right');
+  	nsearch.classList.remove('active');
+  	asearch.classList.add('active');
+  }
+
+  if (bottom.classList.contains('fa-caret-down')) {
+  	bottom.classList.remove('fa-caret-down');
+  	bottom.classList.add('fa-caret-right');
+  }
+
+  if (top.classList.contains('fa-caret-right')) {
+  	top.classList.remove('fa-caret-right');
+  	top.classList.add('fa-caret-down');
+  }
+  else {
+  	top.classList.remove('fa-caret-down');
+  	top.classList.add('fa-caret-right');
   }
 });
 
-$( "#neighborbutton" ).click(function() {
-  $("#addresssearch").slideUp(300);
-  if ($('#top').hasClass('fa-caret-down')) {
-  	$('#top').removeClass('fa-caret-down').addClass('fa-caret-right');
-  }
-
-  $( "#neighborsearch" ).slideToggle(300);
-
-  if ($('#bottom').hasClass('fa-caret-right')) {
-  	$('#bottom').removeClass('fa-caret-right').addClass('fa-caret-down');
+nbutton.addEventListener("click", function() {
+  if (nsearch.classList.contains('active')) {
+  	nsearch.classList.remove('active');
   }
   else {
-  	$('#bottom').removeClass('fa-caret-down').addClass('fa-caret-right');
+  	asearch.classList.remove('active');
+  	nsearch.classList.add('active');
+  }
+
+  if (top.classList.contains('fa-caret-down')) {
+  	top.classList.remove('fa-caret-down');
+  	top.classList.add('fa-caret-right');
+  }
+
+  if (bottom.classList.contains('fa-caret-right')) {
+  	bottom.classList.remove('fa-caret-right');
+  	bottom.classList.add('fa-caret-down');
+  }
+  else {
+  	bottom.classList.remove('fa-caret-down');
+  	bottom.classList.add('fa-caret-right');
   }
 });
 

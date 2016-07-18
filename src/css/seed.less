@@ -180,7 +180,7 @@ table {
   }
 }
 
-.scroll-section {
+.scroll-sections {
   max-height: 350px;
   overflow-y: auto;
 }
@@ -291,5 +291,9 @@ tr {
 }
 
 #addresssearch, #neighborsearch {
-  display: none;
+    display: none;
+
+    &.active {
+      display: block;
+    }
 }
