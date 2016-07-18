@@ -51,7 +51,7 @@ function initAutocomplete() {
 			    else {
 			    	for (var j = 0; j < databaseData.length; j++) {
 			    		if (databaseData[j].neighborhood == neighbor) {
-					    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-top: 15px; margin-top: 15px'><i class='fa fa-home' aria-hidden='true'></i>  <span class='bold-text'>" + neighbor + "</span> had a total of <span class='bold-text'>" + databaseData[j].listings + "</span> Airbnb listings.<br><br>");
+					    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-top: 15px; margin-top: 15px'><span class='bold-text'>" + neighbor + "</span> had a total of <span class='bold-text'>" + databaseData[j].listings + "</span> Airbnb listings.<br><br>");
 
 					    	//looking for entire homes/apts
 					    	if (databaseData[j].property_1 > 1) {
