@@ -116,6 +116,7 @@ function initAutocomplete() {
       })
 
 	})
+	pymChild.sendHeight();
 }
 
 initAutocomplete();
@@ -149,6 +150,7 @@ abutton.addEventListener("click", function() {
   	top.classList.remove('fa-caret-down');
   	top.classList.add('fa-caret-right');
   }
+  pymChild.sendHeight();
 });
 
 nbutton.addEventListener("click", function() {
@@ -173,6 +175,7 @@ nbutton.addEventListener("click", function() {
   	bottom.classList.remove('fa-caret-down');
   	bottom.classList.add('fa-caret-right');
   }
+  pymChild.sendHeight();
 });
 
 app.controller("SearchController", ["$scope", function($scope) {
@@ -183,4 +186,5 @@ app.controller("SearchController", ["$scope", function($scope) {
 
 	$scope.searchdb = databaseData;
 
+	pymChild.sendHeight();
 }]);
