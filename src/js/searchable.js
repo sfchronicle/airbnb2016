@@ -38,11 +38,16 @@ function initAutocomplete() {
 			  var polygon = neighborhoodData.features[i].geometry.coordinates[0];
 			  var neighbor = neighborhoodData.features[i].properties.name;
 			  var userinput = [longitude, latitude];
-			  var aboutyourarea = document.getElementById('aboutyourarea');
+			  var aboutbar = document.getElementById('aboutbar');
 
 			  if (inside(userinput, polygon) == true) {
-			  	aboutyourarea.innerHTML = '';
-			    aboutyourarea.insertAdjacentHTML('afterbegin','You live in <span class="bold-text">' + neighbor + "</span>.");
+			  	aboutbar.innerHTML = '';
+			  	aboutbar.insertAdjacentHTML('afterbegin','<div id="aboutyourarea"></div><div id="bars"></div>');
+
+			  var bars = document.getElementById('bars');
+			  var aboutyourarea = document.getElementById('aboutyourarea');
+
+			    aboutyourarea.insertAdjacentHTML('afterbegin','You live in <span class="bold-text" style="padding-top: 15px;">' + neighbor + "</span>.");
 
 			    if ((neighbor == "Outer Mission") || (neighbor == "West of Twin Peaks") || (neighbor == "Mission Bay") || (neighbor == "Japantown") || (neighbor == "West Portal") || (neighbor == "Seacliff") || (neighbor == "Lakeshore") || (neighbor == "Treasure Island/YBI") || (neighbor == "Presidio") || (neighbor == "Golden Gate Park")) {
 			    	aboutyourarea.insertAdjacentHTML("beforeend","<p>Data for your neighborhood is not available.</p>");
@@ -67,20 +72,30 @@ function initAutocomplete() {
 						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> were private room listings at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");
 					    	}
 					    	else if (databaseData[j].property_2 == 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> was private room listing at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> was a private room listing at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");					    		
 					    	}
 					    	else {
 						    	aboutyourarea.insertAdjacentHTML("beforeend","<p>There were <span class='bold-text'>0</span> private room listings in the area.<br>");					    		
 					    	}
 					    	//looking for shared rooms
 					    	if (databaseData[j].property_3 > 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px; margin-bottom: 30px'><span class='bold-text'>" + databaseData[j].property_3 + "</span> were shared room listings at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'><span class='bold-text'>" + databaseData[j].property_3 + "</span> were shared room listings at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");
 					    	}
 					    	else if (databaseData[j].property_3 == 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px; margin-bottom: 30px'><span class='bold-text'>" + databaseData[j].property_3 + "</span> was a shared room listing at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'><span class='bold-text'>" + databaseData[j].property_3 + "</span> was a shared room listing at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");					    		
 					    	}
 					    	else {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px; margin-bottom: 30px'>There were <span class='bold-text'>0</span> shared room listings in the area.</p>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'>There were <span class='bold-text'>0</span> shared room listings in the area.</p>");					    		
+					    	}
+
+					    	for (i = 0; i < neighborhoodData.features.length; i++) {
+								if (i == j) {
+					    			bars.insertAdjacentHTML("beforeend","<div class='bar active-bar' style='height: calc(80px*" + databaseData[i].bar + ")'></div>");
+					    			bars.insertAdjacentHTML("beforeend","<span id='ranking'>Your neighborhood ranked <span class='bold-text'>" + databaseData[i].ranking + "</span> for most Airbnb listings.</span>");
+					    		}
+					    		else {
+					    			bars.insertAdjacentHTML("beforeend","<div class='bar black-bar' style='height: calc(80px*" + databaseData[i].bar + ")'></div>");
+					    		}
 					    	}
 
 					    	break;
@@ -90,8 +105,8 @@ function initAutocomplete() {
 			    break;
 			  }
 			  else if ((inside(userinput,polygon) == false) && (i == neighborhoodData.features.length - 1)) {
-				  	aboutyourarea.innerHTML = '';
-			    	aboutyourarea.insertAdjacentHTML('afterbegin',"<p>We couldn't locate your address.</p>");
+				  	aboutbar.innerHTML = '';
+			    	aboutbar.insertAdjacentHTML('afterbegin',"<div id='aboutyourarea'>We couldn't locate your address.</div>");
 			  }
 			  else {
 			  }

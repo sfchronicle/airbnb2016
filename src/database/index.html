@@ -26,7 +26,9 @@
       <div id="addresssearch">
         <input id="autocomplete" placeholder="&#xf002;  Enter your address" type="text" style="font-family:AntennaExtraLight, FontAwesome"></input>
 
-        <div id="aboutyourarea"></div>
+        <div id="aboutbar">
+          <div id="bars"></div>
+        </div>
       </div>
 
 
@@ -92,7 +94,7 @@
       </div>
     </responsive-child>
   </div>
-  
+
     <script>
       var databaseData = <%= JSON.stringify(csv.database_data) %>;
       var neighborhoodData = <%= JSON.stringify(json.data) %>;
