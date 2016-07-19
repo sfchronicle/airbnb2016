@@ -4,9 +4,11 @@ var Sankey = require('./lib/d3.chart.sankey');
 // sankey graph ----------------------------------------------------------------
 
 if (screen.width <= 480) {
-  var node_spacing = 2;
+  var node_spacing = 1;
+  var node_width = 15;
 } else {
   var node_spacing = 5;
+  var node_width = 20;
 }
 
 var colors = {
@@ -17,7 +19,7 @@ var colors = {
 
       'marina': '#889C6B',
       'richmonddistrict': '#9FA7B3',
-      'downtown': '#A89170',
+      'downtown/unionsquare': '#A89170',
       'innersunset': '#61988E',
       'soma': '#6E7B8E',
       'outersunset': '#80A9D0',
@@ -102,7 +104,7 @@ chart
       return color(link.source, 4) || color(link.target, 1) || colors.fallback;
     }
   })
-  .nodeWidth(20)
+  .nodeWidth(node_width)
   .nodePadding(node_spacing)
   .spread(true)
   .iterations(0)

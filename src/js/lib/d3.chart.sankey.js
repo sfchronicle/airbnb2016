@@ -556,7 +556,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    function ascendingDepth(a, b) {
-				if ((a.name == "Richmond District") || (b.name == "SoMa")) {
+				if ((a.name == "Downtown/Union Square")) {
+					console.log(a.name);
 					return a.y-b.y;
 				}
 				if (a.name == "over 100") {
@@ -604,7 +605,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 
 	  function center(node) {
-	    return node.y + node.dy / 2;
+			return node.y + node.dy / 2;
 	  }
 
 	  function value(link) {

@@ -1,4 +1,26 @@
 neighborhood,price_bin,review_bin,count
+Western Addition/NOPA,>$500,single review,4
+Western Addition/NOPA,>$500,up to 10,9
+Western Addition/NOPA,>$500,up to 100,6
+Western Addition/NOPA,$100 and less,over 100,6
+Western Addition/NOPA,$100 and less,single review,15
+Western Addition/NOPA,$100 and less,up to 10,26
+Western Addition/NOPA,$100 and less,up to 100,35
+Western Addition/NOPA,$101-$200,over 100,11
+Western Addition/NOPA,$101-$200,single review,18
+Western Addition/NOPA,$101-$200,up to 10,54
+Western Addition/NOPA,$101-$200,up to 100,63
+Western Addition/NOPA,$201-$300,over 100,1
+Western Addition/NOPA,$201-$300,single review,8
+Western Addition/NOPA,$201-$300,up to 10,20
+Western Addition/NOPA,$201-$300,up to 100,27
+Western Addition/NOPA,$301-$400,over 100,1
+Western Addition/NOPA,$301-$400,single review,4
+Western Addition/NOPA,$301-$400,up to 10,11
+Western Addition/NOPA,$301-$400,up to 100,13
+Western Addition/NOPA,$401-$500,single review,3
+Western Addition/NOPA,$401-$500,up to 10,4
+Western Addition/NOPA,$401-$500,up to 100,1
 Bernal Heights,>$500,single review,1
 Bernal Heights,>$500,up to 10,4
 Bernal Heights,$100 and less,over 100,5
@@ -19,23 +41,23 @@ Bernal Heights,$301-$400,up to 100,6
 Bernal Heights,$401-$500,single review,3
 Bernal Heights,$401-$500,up to 10,2
 Bernal Heights,$401-$500,up to 100,1
-Downtown,>$500,single review,5
-Downtown,>$500,up to 10,1
-Downtown,$100 and less,single review,6
-Downtown,$100 and less,up to 10,9
-Downtown,$100 and less,up to 100,29
-Downtown,$101-$200,over 100,4
-Downtown,$101-$200,single review,30
-Downtown,$101-$200,up to 10,36
-Downtown,$101-$200,up to 100,32
-Downtown,$201-$300,single review,6
-Downtown,$201-$300,up to 10,12
-Downtown,$201-$300,up to 100,3
-Downtown,$301-$400,single review,3
-Downtown,$301-$400,up to 10,1
-Downtown,$301-$400,up to 100,3
-Downtown,$401-$500,single review,1
-Downtown,$401-$500,up to 100,2
+Downtown/Union Square,>$500,single review,5
+Downtown/Union Square,>$500,up to 10,1
+Downtown/Union Square,$100 and less,single review,6
+Downtown/Union Square,$100 and less,up to 10,9
+Downtown/Union Square,$100 and less,up to 100,29
+Downtown/Union Square,$101-$200,over 100,4
+Downtown/Union Square,$101-$200,single review,30
+Downtown/Union Square,$101-$200,up to 10,36
+Downtown/Union Square,$101-$200,up to 100,32
+Downtown/Union Square,$201-$300,single review,6
+Downtown/Union Square,$201-$300,up to 10,12
+Downtown/Union Square,$201-$300,up to 100,3
+Downtown/Union Square,$301-$400,single review,3
+Downtown/Union Square,$301-$400,up to 10,1
+Downtown/Union Square,$301-$400,up to 100,3
+Downtown/Union Square,$401-$500,single review,1
+Downtown/Union Square,$401-$500,up to 100,2
 Haight-Ashbury,>$500,up to 10,2
 Haight-Ashbury,>$500,up to 100,4
 Haight-Ashbury,$100 and less,over 100,12
@@ -274,25 +296,3 @@ The Castro,$301-$400,up to 100,10
 The Castro,$401-$500,single review,1
 The Castro,$401-$500,up to 10,3
 The Castro,$401-$500,up to 100,5
-Western Addition/NOPA,>$500,single review,4
-Western Addition/NOPA,>$500,up to 10,9
-Western Addition/NOPA,>$500,up to 100,6
-Western Addition/NOPA,$100 and less,over 100,6
-Western Addition/NOPA,$100 and less,single review,15
-Western Addition/NOPA,$100 and less,up to 10,26
-Western Addition/NOPA,$100 and less,up to 100,35
-Western Addition/NOPA,$101-$200,over 100,11
-Western Addition/NOPA,$101-$200,single review,18
-Western Addition/NOPA,$101-$200,up to 10,54
-Western Addition/NOPA,$101-$200,up to 100,63
-Western Addition/NOPA,$201-$300,over 100,1
-Western Addition/NOPA,$201-$300,single review,8
-Western Addition/NOPA,$201-$300,up to 10,20
-Western Addition/NOPA,$201-$300,up to 100,27
-Western Addition/NOPA,$301-$400,over 100,1
-Western Addition/NOPA,$301-$400,single review,4
-Western Addition/NOPA,$301-$400,up to 10,11
-Western Addition/NOPA,$301-$400,up to 100,13
-Western Addition/NOPA,$401-$500,single review,3
-Western Addition/NOPA,$401-$500,up to 10,4
-Western Addition/NOPA,$401-$500,up to 100,1
