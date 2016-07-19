@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
   <head>
+    <script type="text/javascript" src="http://projects.sfchronicle.com/shared/js/pym.min.js"></script>
     <title><%= json.project.title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <%= t.include("partials/_head.html") %>
   </head>
-  <script type="text/javascript" src="http://projects.sfchronicle.com/shared/js/pym.min.js"></script>
   <body>
 
     <responsive-child>
@@ -15,17 +15,17 @@
       <div class="outer">
 
         <div class="chart-hed">
-          The Airbnb rental landscape in SF
+          Hot neighborhoods for Airbnb
         </div>
 
-        <div class="chatter">Hover over or click on the chart below to see how expensive Airbnb rentals are per night in your neighborhood and how many reviews they have.</div>
+        <div class="chatter">Hover over or click on the chart below to see prices and popularity for Airbnb rentals in the 15 neighborhoods with the most listings.</div>
 
         <div class="divider-div"></div>
 
         <div class="sankey-header">
-          <div class="hed1">by neighborhood</div>
-          <div class="hed2">by cost per night</div>
-          <div class="hed3">by review number</div>
+          <div class="hed1">Price per night ($)</div>
+          <div class="hed2">Neighborhood</div>
+          <div class="hed3">Popularity (number of reviews)</div>
         </div>
 
         <div class="chart">
@@ -37,7 +37,7 @@
             <div class="entry">Emma O'Neill  &bull; <a href="mailto:eoneill@sfchronicle.com">eoneill@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/emmaruthoneill" target="_blank">@emmaruthoneill</a></div>
         </div>
         <div class="source">
-          <em>Source: <a href="www.google.com" target="_blank">This is the source</a></em>
+          <em>Sources: <a href="http://www.connotate.com/platform/?utm_expid=73551542-20.G8gGy9RYTf21v7_s3qIRow.0" target="_blank">Connotate</a>, Chronicle research</em>
         </div>
 
       </div>
