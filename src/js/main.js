@@ -3,6 +3,12 @@ var Sankey = require('./lib/d3.chart.sankey');
 
 // sankey graph ----------------------------------------------------------------
 
+if (screen.width <= 480) {
+  var node_spacing = 2;
+} else {
+  var node_spacing = 5;
+}
+
 var colors = {
 
       'entirehome/apt': '#6C85A5',
@@ -56,18 +62,6 @@ AirbnbData.forEach(function (d) {
   // graph.nodes.push({ "name": d.room_type });
   graph.nodes.push({ "name": String(d.review_bin) });
   graph.nodes.push({ "name": d.price_bin});
-  // if (d.neighborhood == null) {
-  //   console.log("problem with neighborhood");
-  // }
-  // if (d.review_bin == null) {
-  //   console.log("problem with review bin");
-  // }
-  // if (d.price_bin == null) {
-  //   console.log("problem with price bin");
-  // }
-  // if (d.count == null) {
-  //   console.log("problem with count");
-  // }
 
   graph.links.push({ "source": d.price_bin,
                       "target": d.neighborhood,
@@ -109,20 +103,19 @@ chart
     }
   })
   .nodeWidth(20)
-  .nodePadding(5)
+  .nodePadding(node_spacing)
   .spread(true)
   .iterations(0)
   .draw(graph);
 
+
 function label(node) {
-  if (node.name == "very high") {
-    return node.name + " (>300)";
-  } else if (node.name == "high") {
-    return node.name + " (201-300)"
-  } else if (node.name == "mid") {
-    return node.name + " (100-200)"
-  } else if (node.name == "low") {
-    return node.name + " (<100)"
+  if (screen.width <= 480) {
+    if (node.name == "single review") {
+      return "One review";
+    } else {
+      return node.name;
+    }
   } else {
     return node.name;
   }

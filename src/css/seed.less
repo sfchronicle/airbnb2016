@@ -118,6 +118,11 @@ a:hover {
   display: inline-block;
   width: 32%;
   margin: 12px 0;
+  @media @mobile {
+    width: 31%;
+    vertical-align: middle;
+    margin: 5px 0;
+  }
 }
 .hed1 {
   right: 0%;
@@ -142,6 +147,7 @@ a:hover {
   margin: auto;
   //font-family: 13px sans-serif;
   @media @mobile {
+    height: 600px;
     width: 98%;
     margin: auto;
   }
@@ -155,7 +161,7 @@ a:hover {
     font-family: @bold-graphics;
     text-transform: uppercase;
     @media @mobile {
-      font-size: 10px;
+      font-size: 8px;
     }
   }
   .node text-part2 {
@@ -258,7 +264,7 @@ tr {
 }
 
 .searchbutton {
-  width: 80%; 
+  width: 80%;
   text-align: left;
   margin: 0 auto;
   margin-bottom: 15px;

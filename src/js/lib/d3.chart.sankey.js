@@ -556,6 +556,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    function ascendingDepth(a, b) {
+				if ((a.name == "Richmond District") || (b.name == "SoMa")) {
+					return a.y-b.y;
+				}
 				if (a.name == "over 100") {
 					return a.y-b.y;
 				}
