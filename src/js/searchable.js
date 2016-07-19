@@ -88,7 +88,7 @@ function initAutocomplete() {
 						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'>There were <span class='bold-text'>0</span> shared room listings in the area.</p>");					    		
 					    	}
 
-					    	for (i = 0; i < databaseData.features.length; i++) {
+					    	for (i = 0; i < databaseData.length; i++) {
 								if (i == j) {
 					    			bars.insertAdjacentHTML("beforeend","<div class='bar active-bar' style='height: calc(80px*" + databaseData[i].bar + ")'></div>");
 					    			bars.insertAdjacentHTML("beforeend","<span id='ranking'>Your neighborhood ranked <span class='bold-text'>" + databaseData[i].ranking + "</span> for most Airbnb listings.</span>");
