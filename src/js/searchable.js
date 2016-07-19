@@ -59,36 +59,36 @@ function initAutocomplete() {
 
 					    	//looking for entire homes/apts
 					    	if (databaseData[j].property_1 > 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_1 + "</span> were entire home/apartment listings at <span class='bold-text'>" + databaseData[j].price_1 + "</span> per night.<br>");
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_1 + "</span> were entire homes or apartments at <span class='bold-text'>" + databaseData[j].price_1 + "</span> per night.<br>");
 					    	}
 					    	else if (databaseData[j].property_1 == 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_1 + "</span> was an entire home/apartment listing at <span class='bold-text'>" + databaseData[j].price_1 + "</span> per night.<br>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_1 + "</span> was an entire homes or apartments at <span class='bold-text'>" + databaseData[j].price_1 + "</span> per night.<br>");					    		
 					    	}
 					    	else {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p>There were <span class='bold-text'>0</span> entire home/apartment listings in the area.<br>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p>There were <span class='bold-text'>0</span> entire home or apartment listings in the area.<br>");					    		
 					    	}
 					    	//looking for private rooms
 					    	if (databaseData[j].property_2 > 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> were private room listings at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> were private rooms at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");
 					    	}
 					    	else if (databaseData[j].property_2 == 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> was a private room listing at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p><span class='bold-text'>" + databaseData[j].property_2 + "</span> was a private room at <span class='bold-text'>" + databaseData[j].price_2 + "</span> per night.<br>");					    		
 					    	}
 					    	else {
 						    	aboutyourarea.insertAdjacentHTML("beforeend","<p>There were <span class='bold-text'>0</span> private room listings in the area.<br>");					    		
 					    	}
 					    	//looking for shared rooms
 					    	if (databaseData[j].property_3 > 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'><span class='bold-text'>" + databaseData[j].property_3 + "</span> were shared room listings at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'><span class='bold-text'>" + databaseData[j].property_3 + "</span> were shared rooms at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");
 					    	}
 					    	else if (databaseData[j].property_3 == 1) {
-						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'><span class='bold-text'>" + databaseData[j].property_3 + "</span> was a shared room listing at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");					    		
+						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'><span class='bold-text'>" + databaseData[j].property_3 + "</span> was a shared room at <span class='bold-text'>" + databaseData[j].price_3 + "</span> per night.</p>");					    		
 					    	}
 					    	else {
 						    	aboutyourarea.insertAdjacentHTML("beforeend","<p style='padding-bottom: 20px;'>There were <span class='bold-text'>0</span> shared room listings in the area.</p>");					    		
 					    	}
 
-					    	for (i = 0; i < neighborhoodData.features.length; i++) {
+					    	for (i = 0; i < databaseData.features.length; i++) {
 								if (i == j) {
 					    			bars.insertAdjacentHTML("beforeend","<div class='bar active-bar' style='height: calc(80px*" + databaseData[i].bar + ")'></div>");
 					    			bars.insertAdjacentHTML("beforeend","<span id='ranking'>Your neighborhood ranked <span class='bold-text'>" + databaseData[i].ranking + "</span> for most Airbnb listings.</span>");
