@@ -36,55 +36,56 @@
           <div ng-controller="SearchController" ng-app="search" ng-cloak>
            <input type="text" ng-model="searchKeyword" placeholder="&#xf002;  Look up your neighborhood" id="complete" style="font-family:AntennaExtraLight, FontAwesome">
 
-            <div class="scroll-section">
+           <div class="scroll-section">
               <table>
-                <thead fix-head class="hidden">
+                <thead>
                   <tr>
-                    <th colspan=20 rowspan=2 width="35.09%"><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">Neighborhood<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up"></span></a>
+                    <th colspan=20 rowspan=2><a href="javascript:void(0)" ng-click="sortType = 'neighborhood'; sortReverse = !sortReverse">Neighborhood<span ng-show="sortType == 'neighborhood' && !sortReverse" class="fa fa-caret-down"></span><span ng-show="sortType == 'neighborhood' && sortReverse" class="fa fa-caret-up"></span></a>
                     <th colspan=7 rowspan=2 width="12.28%"><a href="javascript:void(0)" ng-click="sortType = 'listings'; sortReverse = !sortReverse">Total listings<span ng-show="sortType == 'listings' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'listings' && sortReverse" class="fa fa-caret-down"></span></a>
-                    <th colspan=10 width="17.54%">Entire home/apt
-                    <th colspan=10 width="17.54%">Private room
-                    <th colspan=10 width="17.54%">Shared room
+                    <th colspan=10>Entire home/apt
+                    <th colspan=10>Private room
+                    <th colspan=10>Shared room
                   </tr>
                   <tr class="smaller">
-                    <th colspan=4 width="7.02%"><a href="javascript:void(0)" ng-click="sortType = 'property_1'; sortReverse = !sortReverse">
+                    <th colspan=4><a href="javascript:void(0)" ng-click="sortType = 'property_1'; sortReverse = !sortReverse">
                           #<span ng-show="sortType == 'property_1' && !sortReverse" class="fa fa-caret-up fa fa-caret-up"></span><span ng-show="sortType == 'property_1' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=6 width="10.53%"><a href="javascript:void(0)" ng-click="sortType = 'order1'; sortReverse = !sortReverse">
+                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'order1'; sortReverse = !sortReverse">
                           Price<span ng-show="sortType == 'order1' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'order1' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=4 width="7.02%"><a href="javascript:void(0)" ng-click="sortType = 'property_2'; sortReverse = !sortReverse">
+                    <th colspan=4><a href="javascript:void(0)" ng-click="sortType = 'property_2'; sortReverse = !sortReverse">
                           #<span ng-show="sortType == 'property_2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'property_2' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=6 width="10.53%"><a href="javascript:void(0)" ng-click="sortType = 'order2'; sortReverse = !sortReverse">
+                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'order2'; sortReverse = !sortReverse">
                           Price<span ng-show="sortType == 'order2' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'order2' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=4 width="7.02%"><a href="javascript:void(0)" ng-click="sortType = 'property_3'; sortReverse = !sortReverse">
+                    <th colspan=4><a href="javascript:void(0)" ng-click="sortType = 'property_3'; sortReverse = !sortReverse">
                           #<span ng-show="sortType == 'property_3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'property_3' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
-                    <th colspan=6 width="10.53%"><a href="javascript:void(0)" ng-click="sortType = 'order3'; sortReverse = !sortReverse">
+                    <th colspan=6><a href="javascript:void(0)" ng-click="sortType = 'order3'; sortReverse = !sortReverse">
                           Price<span ng-show="sortType == 'order3' && !sortReverse" class="fa fa-caret-up"></span><span ng-show="sortType == 'order3' && sortReverse" class="fa fa-caret-down"></span>
                         </a>
                 </thead>
 
                 <tbody>
                   <tr ng-repeat="row in searchdb | orderBy:sortType:sortReverse | filter: searchKeyword as results">
-                    <td colspan=20 width="35.09%">{{row.neighborhood}}
-                    <td colspan=7 width="12.28%">{{row.listings}}
-                    <td colspan=4 width="7.02%">{{row.property_1}}
-                    <td colspan=6 width="10.53%">{{row.price_1}}
-                    <td colspan=4 width="7.02%">{{row.property_2}}
-                    <td colspan=6 width="10.53%">{{row.price_2}}
-                    <td colspan=4 width="7.02%">{{row.property_3}}
-                    <td colspan=6 width="10.53%">{{row.price_3}}
+                    <td colspan=20>{{row.neighborhood}}
+                    <td colspan=7>{{row.listings}}
+                    <td colspan=4>{{row.property_1}}
+                    <td colspan=6>{{row.price_1}}
+                    <td colspan=4>{{row.property_2}}
+                    <td colspan=6>{{row.price_2}}
+                    <td colspan=4>{{row.property_3}}
+                    <td colspan=6>{{row.price_3}}
                   </tr>
                   <tr ng-show="results.length == 0">
-                    <td colspan=57 width="100%" style="padding: 10px;"><em>No results found.</em>
+                    <td colspan=57 style="padding: 10px;"><em>No results found.</em>
               </table>
 
             </div>
           </div>
         </div>
+      </div>
 
       <div style="margin-top: 3px;" class="credit">
         <div class="entry">Benjamin Din  &bull; <a href="mailto:benjamin.din@gmail.com">bdin@sfchronicle.com</a>   &bull; <a href = "https://twitter.com/benjamindin" target="_blank">@benjamindin</a></div>
