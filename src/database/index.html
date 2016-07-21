@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    <script type="text/javascript" src="http://projects.sfchronicle.com/shared/js/pym.min.js"></script>
     <title><%= json.project.title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,8 +14,7 @@
     }
     </style>
   </head>
-  <body>
-    <div class="outer">
+  <body is="responsive-body">
     <responsive-child id="searchable">
       <div class="hed">Where the Airbnbs are</div>
       <div class="chatter">Select a neighborhood or type in an address to see how many Airbnb units there are in your neck of the woods, how many are homes, rooms and shared rooms, and what they cost per night.</div>
@@ -94,16 +92,16 @@
         <div class="entry" style="padding-top: 5px">Sources: <a href="http://www.connotate.com/platform/#utm_source=SFChr16&utm_medium=SFChr16&utm_campaign=SFChr16" target="_blank">Connotate</a>, Chronicle research</div>
       </div>
     </responsive-child>
-  </div>
 
     <script>
       var databaseData = <%= JSON.stringify(csv.database_data) %>;
       var neighborhoodData = <%= JSON.stringify(json.data) %>;
-      var pymChild = new pym.Child({polling: 500});
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPV3pN4bw6LqLzlkLd-NFEXg6COJ916Tg&libraries=places"></script>
     <script src="../searchable_app.js"></script>
+    <script src="../responsive-child.js"></script>
+
     <%= t.include("partials/_foot.html") %>
    <!-- <%= t.include("partials/_helloSFC.html") %> -->
   </body>
